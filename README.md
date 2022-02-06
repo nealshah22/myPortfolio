@@ -1,5 +1,5 @@
 # myportfolio
-
+Welcome to Neal Shah's portfolio!
 ## Project setup
 ```
 npm install
