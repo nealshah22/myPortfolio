@@ -1,38 +1,83 @@
 <template lang="html">
-  <h1>Red Cross Club</h1>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="https://i.imgur.com/dr75tJt.png" alt="WebImage" style="width:100%">
-        <div class="container">
-          <h4><b>Club Website</b></h4>
-          <p>Reconstructed and renovated <a href="https://www.ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</p>
-        </div>
+  <!-- underline -->
+  <transition name="bounce" appear>
+  <h1><u>President of Red Cross Club</u></h1>
+  </transition>
+    <div class="row">
+      <div class="column">
+        <transition name="fade" appear>
+          <div class="card">
+            <img src="https://i.imgur.com/rm3NpeC.png" alt="WebImage" style="width:100%">
+            <div class="container">
+              <h3><b>Club Website</b></h3>
+              <h5>Reconstructed and renovated <a href="https://www.ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
+              <h5><u>My additions to the site from last year:</u></h5>
+              <p>
+                <ul>
+                  <li>Constructed a digital form integrated in the website for members to suggest volunteering events</li>
+                  <li>Implemented a google calender for a streamlined event viewing experience</li>
+                  <li>Improved overall site expereince by *****</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </transition>
       </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <agile>
-          <div class="slide">
-            <img src="https://i.imgur.com/dr75tJt.png" alt="WebImage" style="width:100%">
+      <div class="column">
+        <transition name="fade" appear>
+          <div class="card">
+            <agile :dots="true" :infinite="false">
+              <div class="slide">
+                <img src="https://i.imgur.com/XOxInM1.jpg" alt="WebImage" style="width:100%">
+              </div>
+              <div class="slide">
+                <img src="https://i.imgur.com/HsrO8c5.jpg" alt="WebImage" style="width:100%">
+              </div>
+              <div class="slide">
+                <img src="https://i.imgur.com/K5KNvOh.png" alt="WebImage" style="width:100%">
+              </div>
+            </agile>
+            <div class="container">
+              <h3><b>Volunteering Events</b></h3>
+              <h5>Increased average monthly events from 1-2 to 6-7 events </h5>
+              <h5><u>Since October 2021:</u></h5>
+              <p>
+                <ul>
+                  <li>Hosted food drive (150 items donated)</li>
+                  <li>Collected 200+ hygine products for over 75 underprivelleged familes</li>
+                  <li>Coordinated and communicated 4-5 in-person volunteering events, monthly</li>
+                </ul>
+              </p>
+            </div>`
           </div>
-          <div class="slide">
-            <img src="https://i.imgur.com/dr75tJt.png" alt="WebImage" style="width:100%">
-          </div>
-          <div class="slide">
-            <img src="https://i.imgur.com/dr75tJt.png" alt="WebImage" style="width:100%">
-          </div>
-          <div class="slide">
-            <img src="https://i.imgur.com/dr75tJt.png" alt="WebImage" style="width:100%">
-          </div>
-      </agile>
-        <div class="container">
-          <h4><b>Club Events</b></h4>
-          <a href="https://www.ghredcross.weebly.com" target="_blank">Reconstructed and renovated club website to better suit club needs</a>
-        </div>
+        </transition>
       </div>
+      <div class="column">
+        <transition name="fade" appear>
+          <div class="card">
+            <img src="https://i.imgur.com/iW5esKl.png" alt="WebImage" style="width:100%">
+              <div class="container">
+                <h3><b>Members & Attendance</b></h3>
+                <!-- as presidnet, recruited/advertised, motivated -->
+                <!-- LEFT ALIGN -->
+                <h5>Utilized club Instagram and school resources to market the Red Cross Club.</h5>
+                <h5><u>Club stats:</u></h5>
+                <p>
+                  <ul>
+                    <li>Increased number of members from previous year by 115%</li>
+                    <li>Consistent 75% member attendance rate at monthly meetings</li>
+                    <li>As of Feb 2022, members have volunteered total of 280 hours</li>
+                  </ul>
+                </p>
+              </div>
+          </div>
+        </transition>
+      </div>
+
     </div>
-  </div>
+  <transition name="bounce" appear>
+  <h1><u>President of TED-Ed Club</u></h1>
+</transition>
 </template>
 
 <script>
@@ -50,8 +95,54 @@ export default {
   box-sizing: border-box;
 }
 
+.fade-enter-active {
+  transition: all 0.5s ease-out;
+}
+
+.fade-leave-active {
+  transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  margin: 1%;
+}
+h5 {
+  text-align: left;
+  margin: 0 auto;
+  padding: 1.5%;
+  font-size: 110%;
+  color: #4d4d4d;
+
+}
+p {
+  text-align: left;
+
+  margin: 0 auto;
+  padding: 0.25%;
+  font-size: 105%;
+  color: #4d4d4d;
+
+}
+h3 {
+  margin: 0 auto;
+  padding: 1.5%;
+  font-size: 200%;
+  text-decoration: underline;
+  color: #4d4d4d;
+}
+ul {
+  margin:   0 auto;
+  text-align: left;
 }
 
 /* Float four columns side by side */

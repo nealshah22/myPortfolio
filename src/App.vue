@@ -2,13 +2,17 @@
   <div id="nav">
     <router-link style="text-decoration: none;" to="/">Home</router-link> |
     <router-link style="text-decoration: none;" :to="{ name: 'School' }">School</router-link> |
-    <router-link style="text-decoration: none;" :to="{ name: 'Service' }">Service</router-link> |
+    <router-link style="text-decoration: none;" :to="{ name: 'Service' }">Clubs & Community Service</router-link> |
     <router-link style="text-decoration: none;" :to="{ name: 'Passions' }">Passions</router-link>
   </div>
+  <vue-page-transition name="fade-in-right">
   <router-view/>
+</vue-page-transition>
 </template>
 
 <style>
+/* route transitions */
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,17 +32,22 @@ body {
 footer{
   position: center;
 }
-
+h5 {
+  margin: auto;
+  padding: auto;
+}
 h1 {
   margin: 0 auto;
   padding: auto;
+    font-family: Helvetica;
   /* line-height: 0; */
 }
 
 p {
   margin: 0 auto;
   padding: auto;
-  /* line-height: 0; */
+  color: #4d4d4d;
+  font-family: Helvetica;
 }
 a {
   color: #8b9a71;
