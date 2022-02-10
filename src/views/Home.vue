@@ -13,7 +13,7 @@
   <div id="footer">
 
   <transition name="bounce" appear>
-    <h3>I designed and devloped this website using the vueJS framework.</h3>
+    <h3>I designed and devloped this website from scratch using the vueJS framework.</h3>
   </transition>
 </div>
 </template>

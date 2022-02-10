@@ -31,7 +31,16 @@
         <img src="" alt="">
         <div class="container">
           <h3>Part-time paid Instructor</h3>
-          <h5></h5>
+          <h5>
+            <u>Since November 2021:</u>
+          </h5>
+          <p>
+            <ul>
+              <li>Grown my skill set to independetly teach classes of higher ranked students (15-20 students)</li>
+              <li>Spent over 20 hours judging Taekwondo testings and tournaments at my studio</li>
+              <li>Began teaching private 1-on-1 lessons for struggling students</li>
+            </ul>
+          </p>
         </div>
       </div>
     </transition>
@@ -87,6 +96,7 @@ body {
 
 h1{
   margin: 1%;
+  font-size: 250%;
 }
 h5 {
   text-align: left;

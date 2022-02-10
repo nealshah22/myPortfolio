@@ -4,26 +4,7 @@
   <h1><u>President of Red Cross Club</u></h1>
   </transition>
     <div class="row">
-      <div class="column">
-        <transition name="fade" appear>
-          <div class="card">
-            <img src="https://i.imgur.com/rm3NpeC.png" alt="WebImage" style="width:100%">
-            <div class="container">
-              <h3><b>Club Website</b></h3>
-              <h5>Reconstructed and renovated <a href="https://www.ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
-              <h5><u>My additions to the site from last year:</u></h5>
-              <p>
-                <ul>
-                  <li>Constructed a digital form integrated in the website for members to suggest volunteering events</li>
-                  <li>Implemented a google calender for a streamlined event viewing experience</li>
-                  <li>Improved overall site expereince by *****</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </transition>
-      </div>
-      <div class="column">
+            <div class="column">
         <transition name="fade" appear>
           <div class="card">
             <agile :dots="true" :infinite="false">
@@ -60,7 +41,7 @@
                 <h3><b>Members & Attendance</b></h3>
                 <!-- as presidnet, recruited/advertised, motivated -->
                 <!-- LEFT ALIGN -->
-                <h5>Utilized club Instagram and school resources to market the Red Cross Club.</h5>
+                <h5>Utilized Instagram and school resources to market the Red Cross Club.</h5>
                 <h5><u>Club stats:</u></h5>
                 <p>
                   <ul>
@@ -73,11 +54,47 @@
           </div>
         </transition>
       </div>
+      <div class="column">
+        <transition name="fade" appear>
+          <div class="card">
+            <p><a href="https://www.ghredcross.weebly.com" target="_blank">
 
+              <img src="https://i.imgur.com/rm3NpeC.png" alt="WebImage" style="width:100%">
+            </a> </p>
+            <div class="container">
+              <h3><b>Club Website</b></h3>
+              <h5>Reconstructed and renovated <a href="https://www.ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
+              <h5><u>My additions to the site from last year:</u></h5>
+              <p>
+                <ul>
+                  <li>Constructed a digital form integrated in the website for members to suggest volunteering events</li>
+                  <li>Implemented a google calender for a streamlined event viewing experience</li>
+                  <li>Improved overall site expereince by *****</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </transition>
+      </div>
     </div>
   <transition name="bounce" appear>
   <h1><u>President of TED-Ed Club</u></h1>
 </transition>
+<div class="row">
+  <div class="column">
+    <transition name="fade" appear>
+    <div class="card">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MIOpVO8uxg?autoplay=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picsture" allowfullscreen></iframe>
+      <div class="container">
+        <h3>Inter-school Speech Competition</h3>
+        <h5>Coordinating an end of year, "TED-Talk" style speech competition with 2 other schools.</h5>
+        <h5>Individually providing assistance & resources in developing students' public speaking skills.</h5>
+        <h5>Desigend, edited, and published a video marketing the TED-Ed club to students. (Featured on school wesbite)</h5>
+      </div>
+    </div>
+  </transition>
+  </div>
+</div>
 </template>
 
 <script>
@@ -115,6 +132,7 @@ body {
 
 h1{
   margin: 1%;
+  font-size: 250%;
 }
 h5 {
   text-align: left;
