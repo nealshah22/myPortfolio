@@ -1,6 +1,5 @@
 <template>
 <div class="body">
-
   <transition name="bounce" appear>
     <p style="font-size: 400%">Neal Shah</p>
   </transition>
