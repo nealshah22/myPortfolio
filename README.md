@@ -1,4 +1,4 @@
-# myportfolio
+# Neal's Virtual Resume
 Welcome to Neal Shah's portfolio!
 ## Project setup
 ```
