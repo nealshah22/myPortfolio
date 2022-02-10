@@ -1,5 +1,5 @@
 # Neal's Virtual Resume
-Welcome to Neal Shah's portfolio!
+Welcome to Neal Shah's Virtual Resume!
 ## Project setup
 ```
 npm install
