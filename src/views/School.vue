@@ -36,6 +36,35 @@
       </div>
 </transition>
     </div>
+    <div class="column">
+      <transition name="fade" appear>
+        <div class="card">
+          <agile :dots="true" :infinite="false">
+            <div class="slide">
+              <img src="https://www.avongrove.org/uploaded/Schools/High_School/NHS/nhs_logo.jpg" alt="NHS">
+            </div>
+            <div class="slide">
+              <img src="https://www.chatham.k12.nc.us/cms/lib/NC01911141/Centricity/Domain/2884/NTHS-logo_Vertical_RGB_transparent_300dpi-01.png" alt="NTHS">
+            </div>
+            <div class="slide">
+              <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1552590111/lakek12flus/b0h2afrl4xu3tx1rjce1/Rho-Kappa-Logo.jpg" alt="Rho Kappa">
+            </div>
+          </agile>
+          <div class="container">
+            <h3>Honor Societies</h3>
+            <h5>
+              <ul>
+                <li>Member of National Honor Society</li>
+                <li>Member of National Technical Honor Society</li>
+                <li>Member of Rho Kappa (Social Studies Honor Society)</li>
+              </ul>
+            </h5>
+
+          </div>
+        </div>
+      </transition>
+
+    </div>
 
   </div>
 </template>
