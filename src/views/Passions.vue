@@ -14,12 +14,21 @@
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/D35z6f7oDPY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="slide">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/G5KSPO5ThxE?autoplay=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="slide">
             <img src="https://i.imgur.com/YG6IFL4.jpg" alt="webimg" style="width:100%">
           </div>
         </agile>
         <div class="container">
           <h3><b>4th Degree Black Belt</b></h3>
           <h5>After training for over 9 years I earned my 4th degree black belt in late October 2021.</h5>
+          <p>
+          <ul>
+            <li>I broke 3 Black Boards (each equivalent to 2.25" wooden boards)</li>
+            <li>As a requirement of my 4th Degree testing, I created my own form (a series of defense & attack movements)</li>
+          </ul>
+          </p>
         </div>
       </div>
       </transition>
