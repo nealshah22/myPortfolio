@@ -75,6 +75,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+
+
 .fade-enter-active {
   transition: all 0.5s ease-out;
 }
