@@ -17,14 +17,14 @@ const routes = [
     component: School
   },
   {
-    path: '/clubs',
-    name: 'Clubs',
-    component: Clubs
-  },
-  {
     path: '/passions',
     name: 'Passions',
     component: Passions
+  },
+  {
+    path: '/clubs',
+    name: 'Clubs',
+    component: Clubs
   }
 ]
 

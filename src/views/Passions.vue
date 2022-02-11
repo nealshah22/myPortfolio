@@ -30,13 +30,13 @@
 
         <img src="" alt="">
         <div class="container">
-          <h3>Part-time paid Instructor</h3>
+          <h3>Part-time Paid Instructor</h3>
           <h5>
             <u>Since November 2021:</u>
           </h5>
           <p>
             <ul>
-              <li>Grown my skill set to independetly teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree)</li>
+              <li>Grown my skill set to independetly teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree Black Belt)</li>
               <li>Spent over 20 hours judging Taekwondo testings and tournaments at my studio</li>
               <li>Began teaching private 1-on-1 lessons for students requiring further assitance outside of class</li>
             </ul>

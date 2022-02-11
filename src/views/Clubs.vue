@@ -26,7 +26,7 @@
                 <ul>
                   <li>Hosted food drive (150 items donated)</li>
                   <li>Collected 200+ hygine products for over 75 underprivelleged familes</li>
-                  <li>Coordinated and communicated 4-5 in-person volunteering events, monthly</li>
+                  <li>Coordinated and fulfilled 4-5 in-person volunteering events, monthly</li>
                 </ul>
               </p>
             </div>`
@@ -69,7 +69,7 @@
                 <ul>
                   <li>Constructed a digital form integrated in the website for members to suggest volunteering events</li>
                   <li>Implemented a google calender for a streamlined event viewing experience</li>
-                  <li>Improved overall site expereince by *****</li>
+                  <li>Added a "Missed a meeting" page, embedded with all meeting presentation slides</li>
                 </ul>
               </p>
             </div>
@@ -89,7 +89,7 @@
         <h3>Inter-school Speech Competition</h3>
         <h5>Coordinating an end of year, "TED-Talk" style speech competition with 2 other schools.</h5>
         <h5>Individually providing assistance & resources in developing students' public speaking skills.</h5>
-        <h5>Desigend, edited, and published a video marketing the TED-Ed club to students. (Featured on school wesbite)</h5>
+        <h5>Designed, edited, and published a video marketing the TED-Ed club to students. (Featured on school wesbite)</h5>
       </div>
     </div>
   </transition>
