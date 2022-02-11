@@ -14,7 +14,7 @@
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/D35z6f7oDPY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="slide">
-            <img src="https://i.imgur.com/EgS0eW4.jpg" alt="webimg" style="width:100%">
+            <img src="https://i.imgur.com/YG6IFL4.jpg" alt="webimg" style="width:100%">
           </div>
         </agile>
         <div class="container">
@@ -36,9 +36,9 @@
           </h5>
           <p>
             <ul>
-              <li>Grown my skill set to independetly teach classes of higher ranked students (15-20 students)</li>
+              <li>Grown my skill set to independetly teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree)</li>
               <li>Spent over 20 hours judging Taekwondo testings and tournaments at my studio</li>
-              <li>Began teaching private 1-on-1 lessons for struggling students</li>
+              <li>Began teaching private 1-on-1 lessons for students requiring further assitance outside of class</li>
             </ul>
           </p>
         </div>
@@ -55,13 +55,61 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <iframe src="https://nealshah22.github.io/hoursUpdate/" width="100%" height="550" frameborder="0" scrolling="no"></iframe>
+        <agile :dots="true" :infinite="false">
+          <div class="slide">
+              <img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1590177494/excel2_zfadq1.png" alt="Python X Excel" style="width:100%">
+          </div>
+          <div class="slide">
+            <iframe src="https://nealshah22.github.io/hoursUpdate/" width="100%" height="550" frameborder="0" scrolling="no"></iframe>
+          </div>
+        </agile>
         <div class="container">
           <h3><b>Automated Volunteer Hours Tracking</b></h3>
-          <h5></h5>
+          <h5>Developed a local python program to automatically read and update volunteer hours upon submission.</h5>
+          <h5>The program:</h5>
+          <p>
+            <ul>
+              <li>Detects typos/spelling errors and, using intelligence programmed by me, informs the user of such occurences with useful statistics.</li>
+              <li>Uses openpyxl (used to read&write to Excel files via Python), a Python library I learned how to use specificaly for this project!</li>
+              <li>Is built for long term usage.</li>
+            </ul>
+          </p>
+          <p style="margin:1%;text-align: center">
+            <a href="https://github.com/nealshah22/hoursupdate" target="_blank">Click to view GitHub repository!</a>
+          </p>
         </div>
       </div>
     </transition>
+    </div>
+    <div class="column">
+      <transition name="fade" appear>
+        <div class="card">
+          <!-- <agile :dots="true" :infinite="false">
+            <div class="slide">
+                <img src="" alt="">
+            </div>
+            <div class="slide">
+
+            </div>
+        </agile> -->
+          <div class="container">
+            <h3>This website!</h3>
+            <h5>I programmed this virtual resume from scratch. Every component, every title, every page you see here, I coded myself!</h5>
+            <h5>
+              <u>This website is:</u>
+            </h5>
+            <p>
+              <ul>
+                <li>Built using vueJS, a framework that utilized HTML, JavaScript, & CSS - all languages I now understand well!</li>
+                <li>Is ran on my own domain - www.nealshah.info. I learned to use Netlify's Build service to deploy my website to the world! </li>
+              </ul>
+            </p>
+            <p style="margin:1%;text-align: center">
+              <a href="https://github.com/nealshah22/myportfolio" target="_blank">Click to view GitHub repository!</a>
+            </p>
+          </div>
+        </div>
+      </transition>
     </div>
 
   </div>
