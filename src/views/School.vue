@@ -41,13 +41,13 @@
         <div class="card">
           <agile :dots="true" :infinite="false">
             <div class="slide">
-              <img src="https://www.avongrove.org/uploaded/Schools/High_School/NHS/nhs_logo.jpg" alt="NHS">
+              <img src="https://www.avongrove.org/uploaded/Schools/High_School/NHS/nhs_logo.jpg" alt="NHS" style="width:100%">
             </div>
             <div class="slide">
-              <img src="https://www.chatham.k12.nc.us/cms/lib/NC01911141/Centricity/Domain/2884/NTHS-logo_Vertical_RGB_transparent_300dpi-01.png" alt="NTHS">
+              <img src="https://www.chatham.k12.nc.us/cms/lib/NC01911141/Centricity/Domain/2884/NTHS-logo_Vertical_RGB_transparent_300dpi-01.png" alt="NTHS" style="width:100%">
             </div>
             <div class="slide">
-              <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1552590111/lakek12flus/b0h2afrl4xu3tx1rjce1/Rho-Kappa-Logo.jpg" alt="Rho Kappa">
+              <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1552590111/lakek12flus/b0h2afrl4xu3tx1rjce1/Rho-Kappa-Logo.jpg" alt="Rho Kappa" style="width:100%">
             </div>
           </agile>
           <div class="container">
