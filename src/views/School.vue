@@ -8,7 +8,7 @@
   <div class="row">
     <div class="column">
       <transition name="fade" appear>
-      <div class="card">
+      <div class="card" style="margin-bottom:5%">
         <img src="https://highlandrambler.org/wp-content/uploads/2019/11/AP-College-Board.jpg" alt="AP Classes" style="width:100%">
         <div class="container">
           <h3>Classes</h3>

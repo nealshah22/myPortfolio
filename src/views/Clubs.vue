@@ -83,13 +83,21 @@
 <div class="row">
   <div class="column">
     <transition name="fade" appear>
-    <div class="card">
+    <div class="card" style="margin-bottom:5%">
       <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MIOpVO8uxg?autoplay=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picsture" allowfullscreen></iframe>
       <div class="container">
         <h3>Inter-school Speech Competition</h3>
-        <h5>Coordinating an end of year, "TED-Talk" style speech competition with 2 other schools.</h5>
-        <h5>Individually providing assistance & resources in developing students' public speaking skills.</h5>
         <h5>Designed, edited, and published a video marketing the TED-Ed club to students. (Featured on school wesbite)</h5>
+        <h5>Individually providing assistance & resources in developing students' public speaking skills in preparation for competition</h5>
+        <h5>Coordinating an end of year, "TED-Talk" style speech competition with 2 other schools.</h5>
+        <p>
+          <ul>
+            <li>Succesfully scheduled an auditorium, stage, & necessary equipment for this showcase</li>
+            <li>Expecting 30 competitors with an estimated audience of roughly 100 students, parents, and faculty members</li>
+          </ul>
+        </p>
+
+
       </div>
     </div>
   </transition>
@@ -186,6 +194,7 @@ ul {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */

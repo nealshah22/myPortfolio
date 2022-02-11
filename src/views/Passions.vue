@@ -54,7 +54,7 @@
   <div class="row">
     <div class="column">
       <transition name="fade" appear>
-        <div class="card">
+        <div class="card" style="margin-bottom:5%">
         <agile :dots="true" :infinite="false">
           <div class="slide">
               <img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1590177494/excel2_zfadq1.png" alt="Python X Excel" style="width:100%">
