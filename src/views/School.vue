@@ -39,7 +39,7 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <agile :dots="true" :infinite="false">
+          <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
             <div class="slide">
               <img src="https://www.avongrove.org/uploaded/Schools/High_School/NHS/nhs_logo.jpg" alt="NHS" style="width:100%">
             </div>
