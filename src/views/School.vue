@@ -1,7 +1,6 @@
 <template lang="html">
 <transition name="bounce" appear>
-  <h1>
-    <u>School Stats</u>
+  <h1>School Stats
 </h1>
 </transition>
 
@@ -41,13 +40,13 @@
         <div class="card">
           <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
             <div class="slide">
-              <img src="https://www.avongrove.org/uploaded/Schools/High_School/NHS/nhs_logo.jpg" alt="NHS" style="width:100%">
+              <img src="https://i.imgur.com/zKCvJeT.png" alt="NHS" style="width:100%">
             </div>
             <div class="slide">
               <img src="https://www.chatham.k12.nc.us/cms/lib/NC01911141/Centricity/Domain/2884/NTHS-logo_Vertical_RGB_transparent_300dpi-01.png" alt="NTHS" style="width:100%">
             </div>
             <div class="slide">
-              <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1552590111/lakek12flus/b0h2afrl4xu3tx1rjce1/Rho-Kappa-Logo.jpg" alt="Rho Kappa" style="width:100%">
+              <img src="https://i.imgur.com/sWl3hFy.png" alt="Rho Kappa" style="width:100%">
             </div>
           </agile>
           <div class="container">
@@ -64,6 +63,16 @@
         </div>
       </transition>
 
+    </div>
+    <div class="column">
+      <transition name="fade" appear>
+        <div class="card">
+          <img src="https://i.imgur.com/PknjJ3h.png" alt="sat score" style="width:100%">
+          <div class="container">
+            <h3>SAT Score (Nov 2020)</h3>
+          </div>
+        </div>
+      </transition>
     </div>
 
   </div>
@@ -105,7 +114,7 @@ h5 {
   margin: 0 auto;
   padding: 1.5%;
   font-size: 110%;
-  color: #4d4d4d;
+  color: #f5f5f5;
 
 }
 p {
@@ -114,7 +123,7 @@ p {
   margin: 0 auto;
   padding: 0.25%;
   font-size: 105%;
-  color: #4d4d4d;
+  color: #f5f5f5;
 
 }
 h3 {
@@ -122,7 +131,7 @@ h3 {
   padding: 1.5%;
   font-size: 200%;
   text-decoration: underline;
-  color: #4d4d4d;
+  color: #f5f5f5;
 }
 ul {
   margin:   0 auto;
@@ -151,8 +160,13 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #8b9a71;
+  border-radius: 5px; /* 5px rounded corners */
 }
+img {
+  border-radius: 5px 5px 5px 5px;
+}
+
 .bounce-enter-active {
   animation: bounce-in 0.5s;
 }

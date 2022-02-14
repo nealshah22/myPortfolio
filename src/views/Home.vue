@@ -1,21 +1,25 @@
 <template>
-<div class="body">
-  <transition name="bounce" appear>
-    <p style="font-size: 400%">Neal Shah</p>
-  </transition>
-  <transition name="bounce" appear>
-    <h1 style="font-size: 500%">Virtual Resume</h1>
-  </transition>
-</div>
+  <div class="row">
+    <div class="column">
+      <transition name="bounce" appear>
+        <p style="font-size: 400%">Neal Shah</p>
+      </transition>
+      <transition name="bounce" appear>
+        <h1 style="font-size: 400%">College Application Updates</h1>
+      </transition>
 
+      <transition name="bounce" appear>
+        <h3>I programmed this virtual resume from scratch. Every component, every animation, every page you see here, I coded myself!</h3>
+      </transition>
 
+    </div>
+    <!-- <div class="column right">
+      <transition name="bounce" appear>
+      <img src="https://i.imgur.com/HoQ8eVg.png" alt="This is me!" class="responsive">
+    </transition>
+    </div> -->
+  </div>
 
-  <div id="footer">
-
-  <transition name="bounce" appear>
-    <h3>I programmed this virtual resume from scratch. Every component, every animation, every page you see here, I coded myself!</h3>
-  </transition>
-</div>
 </template>
 
 <script>
@@ -28,6 +32,14 @@ export default {
 </script>
 
 <style media="screen">
+.responsive {
+  width: 100%;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
 p {
   font-family: Helvetica;
 color: #8b9a71;
@@ -58,13 +70,34 @@ color: #4d4d4d;
   }
 }
 
-html, body
-{
-    height: 100%;
+img {
+  border-radius: 20px 20px 20px 20px;
 }
-#Footer
-    {
-      position:fixed;
-      bottom:0;
-    }
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 </style>

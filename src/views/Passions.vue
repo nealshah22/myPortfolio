@@ -1,126 +1,121 @@
 <template lang="html">
-  <transition name="bounce" appear>
-  <h1>
-    <u>Taekwondo</u>
-  </h1>
-</transition>
-<div class="container">
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <div class="row">
     <div class="column">
-      <transition name="fade" appear>
-        <div class="card">
-        <agile :dots="true" :infinite="false">
-          <div class="slide">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/D35z6f7oDPY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="slide">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/G5KSPO5ThxE?autoplay=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="slide">
-            <img src="https://i.imgur.com/YG6IFL4.jpg" alt="webimg" style="width:100%">
-          </div>
-        </agile>
-        <div class="container">
-          <h3><b>4th Degree Black Belt</b></h3>
-          <h5>After training for over 9 years I earned my 4th degree black belt in late October 2021.</h5>
-          <p>
-          <ul>
-            <li>I broke 3 Black Boards (each equivalent to 2.25" wooden boards)</li>
-            <li>As a requirement of my 4th Degree testing, I created my own form (a series of defense & attack movements)</li>
-          </ul>
-          </p>
-        </div>
-      </div>
-      </transition>
-    </div>
-    <div class="column">
-      <transition name="fade" appear>
-        <div class="card">
+      <transition name="bounce" appear><h1>Taekwondo</h1></transition>
 
-        <img src="" alt="">
-        <div class="container">
-          <h3>Part-time Paid Instructor</h3>
-          <h5>
-            <u>Since November 2021:</u>
-          </h5>
-          <p>
-            <ul>
-              <li>Grown my skill set to independetly teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree Black Belt)</li>
-              <li>Spent over 20 hours judging Taekwondo testings and tournaments at my studio</li>
-              <li>Began teaching private 1-on-1 lessons for students requiring further assitance outside of class</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    </transition>
 
-    </div>
-  </div>
-  </div>
-  <h1>
-    <u>Coding</u>
-  </h1>
-  <div class="row">
-    <div class="column">
-      <transition name="fade" appear>
-        <div class="card" style="margin-bottom:5%">
-        <agile :dots="true" :infinite="false">
-          <div class="slide">
-              <img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1590177494/excel2_zfadq1.png" alt="Python X Excel" style="width:100%">
-          </div>
-          <div class="slide">
-            <iframe src="https://nealshah22.github.io/hoursUpdate/" width="100%" height="550" frameborder="0" scrolling="no"></iframe>
-          </div>
-        </agile>
-        <div class="container">
-          <h3><b>Automated Volunteer Hours Tracking</b></h3>
-          <h5>Developed a local python program to automatically read and update volunteer hours upon submission.</h5>
-          <h5>The program:</h5>
-          <p>
-            <ul>
-              <li>Detects typos/spelling errors and, using intelligence programmed by me, informs the user of such occurences with useful statistics.</li>
-              <li>Uses openpyxl (used to read&write to Excel files via Python), a Python library I learned how to use specificaly for this project!</li>
-              <li>Is built for long term usage.</li>
-            </ul>
-          </p>
-          <p style="margin:1%;text-align: center">
-            <a href="https://github.com/nealshah22/hoursupdate" target="_blank">Click to view GitHub repository!</a>
-          </p>
-        </div>
-      </div>
-    </transition>
-    </div>
-    <div class="column">
-      <transition name="fade" appear>
-        <div class="card">
-          <!-- <agile :dots="true" :infinite="false">
-            <div class="slide">
-                <img src="" alt="">
+      <div class="row">
+        <div class="column">
+          <transition name="fade" appear>
+            <div class="card">
+              <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="40000">
+                <div class="slide">
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/D35z6f7oDPY?autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="slide">
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/G5KSPO5ThxE?autoplay=0&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="slide">
+                  <img src="https://i.imgur.com/YG6IFL4.jpg" alt="webimg" style="width:100%">
+                </div>
+              </agile>
+              <div class="container">
+                <h3><b>4th Degree Black Belt</b></h3>
+                <h5>After training for over 9 years I earned my 4th degree black belt in late October 2021.</h5>
+                <p>
+                  <ul>
+                    <li>I broke 3 Black Boards (each equivalent to 2.25" wooden boards)</li>
+                    <li>As a requirement of my 4th Degree testing, I created my own form (a series of defense & attack movements)</li>
+                  </ul>
+                </p>
+              </div>
             </div>
-            <div class="slide">
-
-            </div>
-        </agile> -->
-          <div class="container">
-            <h3>This website!</h3>
-            <h5>I programmed this virtual resume from scratch. Every component, every title, every page you see here, I coded myself!</h5>
-            <h5>
-              <u>This website is:</u>
-            </h5>
-            <p>
-              <ul>
-                <li>Built using vueJS, a framework that utilized HTML, JavaScript, & CSS - all languages I now understand well!</li>
-                <li>Is ran on my own domain - www.nealshah.info. I learned to use Netlify's Build service to deploy my website to the world! </li>
-              </ul>
-            </p>
-            <p style="margin:1%;text-align: center">
-              <a href="https://github.com/nealshah22/myportfolio" target="_blank">Click to view GitHub repository!</a>
-            </p>
-          </div>
+          </transition>
         </div>
-      </transition>
-    </div>
+        <div class="column">
+          <transition name="fade" appear>
+            <div class="card">
 
+              <img src="" alt="">
+              <div class="container">
+                <h3>Part-time Paid Instructor</h3>
+                <h5>
+                  <u>Since November 2021:</u>
+                </h5>
+                <p>
+                  <ul>
+                    <li>Grown my skill set to independetly teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree Black Belt)</li>
+                    <li>Spent over 20 hours judging Taekwondo testings and tournaments at my studio</li>
+                    <li>Began teaching private 1-on-1 lessons for students requiring further assitance outside of class</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </transition>
+        </div>
+      </div>
+      </div>
+
+    <div class="column">
+      <transition name="bounce" appear><h1>Coding</h1></transition>
+
+
+      <div class="row">
+        <div class="column">
+          <transition name="fade" appear>
+            <div class="card" style="margin-bottom:5%">
+              <agile :dots="true" :infinite="false">
+                <div class="slide">
+                  <img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1590177494/excel2_zfadq1.png" alt="Python X Excel" style="width:100%">
+                </div>
+                <div class="slide">
+                  <iframe src="https://nealshah22.github.io/hoursUpdate/" width="100%" height="550" frameborder="0" scrolling="no"></iframe>
+                </div>
+              </agile>
+              <div class="container">
+                <h3><b>Automated Volunteer Hours Tracking</b></h3>
+                <h5>Developed a local python program to automatically read and update volunteer hours upon submission.</h5>
+                <h5>The program:</h5>
+                <p>
+                  <ul>
+                    <li>Detects typos/spelling errors and, using intelligence programmed by me, informs the user of such occurences with useful statistics.</li>
+                    <li>Uses openpyxl (used to read&write to Excel files via Python), a Python library I learned how to use specificaly for this project!</li>
+                    <li>Is built for long term usage.</li>
+                  </ul>
+                </p>
+                <p style="margin:1%;text-align: center">
+                  <a href="https://github.com/nealshah22/hoursupdate" target="_blank">Click to view GitHub repository!</a>
+                </p>
+              </div>
+            </div>
+          </transition>
+        </div>
+        <div class="column">
+          <transition name="fade" appear>
+            <div class="card">
+              <div class="container">
+                <h3>This website!</h3>
+                <h5>I programmed this virtual resume from scratch. Every component, every title, every page you see here, I coded myself!</h5>
+                <h5>
+                  <u>This website is:</u>
+                </h5>
+                <p>
+                  <ul>
+                    <li>Built using vueJS, a framework that utilized HTML, JavaScript, & CSS - all languages I now understand well!</li>
+                    <li>Is ran on my own domain - www.nealshah.info. I learned to use Netlify's Build service to deploy my website to the world! </li>
+                  </ul>
+                </p>
+                <p style="margin:1%;text-align: center">
+                  <a href="https://github.com/nealshah22/myportfolio" target="_blank">Click to view GitHub repository!</a>
+                </p>
+              </div>
+            </div>
+          </transition>
+        </div>
+      </div>
+
+    </div>
   </div>
 </template>
 
@@ -133,6 +128,7 @@ export default {
 * {
   box-sizing: border-box;
 }
+
 .fade-enter-active {
   transition: all 0.5s ease-out;
 }
@@ -160,7 +156,7 @@ h5 {
   margin: 0 auto;
   padding: 1.5%;
   font-size: 110%;
-  color: #4d4d4d;
+  color: #f5f5f5;
 
 }
 p {
@@ -169,7 +165,7 @@ p {
   margin: 0 auto;
   padding: 0.25%;
   font-size: 105%;
-  color: #4d4d4d;
+  color: #f5f5f5;
 
 }
 h3 {
@@ -177,22 +173,32 @@ h3 {
   padding: 1.5%;
   font-size: 200%;
   text-decoration: underline;
-  color: #4d4d4d;
+  color: #f5f5f5;
 }
 ul {
   margin:   0 auto;
   text-align: left;
 }
 
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #8b9a71;
+  border-radius: 5px; /* 5px rounded corners */
+
+}
+img {
+  border-radius: 5px 5px 5px 5px;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -201,20 +207,10 @@ ul {
   clear: both;
 }
 
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-/* Responsive columns - one column layout (vertical) on small screens */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-    display: block;
-    margin-bottom: 20px;
   }
 }
 

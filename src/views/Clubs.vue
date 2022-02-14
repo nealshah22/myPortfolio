@@ -1,7 +1,7 @@
 <template lang="html">
   <!-- underline -->
   <transition name="bounce" appear>
-  <h1><u>President of Red Cross Club</u></h1>
+  <h1>President of Red Cross Club</h1>
   </transition>
     <div class="row">
             <div class="column">
@@ -63,7 +63,7 @@
             </a> </p>
             <div class="container">
               <h3><b>Club Website</b></h3>
-              <h5>Reconstructed and renovated <a href="https://www.ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
+              <h5>Reconstructed and renovated <a href="https://ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
               <h5><u>My additions to the site from last year:</u></h5>
               <p>
                 <ul>
@@ -78,7 +78,7 @@
       </div>
     </div>
   <transition name="bounce" appear>
-  <h1><u>President of TED-Ed Club</u></h1>
+  <h1>President of TED-Ed Club</h1>
 </transition>
 <div class="row">
   <div class="column">
@@ -143,7 +143,7 @@ h5 {
   margin: 0 auto;
   padding: 1.5%;
   font-size: 110%;
-  color: #4d4d4d;
+  color: #f5f5f5;
 
 }
 p {
@@ -152,7 +152,7 @@ p {
   margin: 0 auto;
   padding: 0.25%;
   font-size: 105%;
-  color: #4d4d4d;
+  color: #f5f5f5;
 
 }
 h3 {
@@ -160,7 +160,7 @@ h3 {
   padding: 1.5%;
   font-size: 200%;
   text-decoration: underline;
-  color: #4d4d4d;
+  color: #f5f5f5;
 }
 ul {
   margin:   0 auto;
@@ -168,6 +168,19 @@ ul {
 }
 
 /* Float four columns side by side */
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #8b9a71;
+  border-radius: 5px; /* 5px rounded corners */
+}
+img {
+  border-radius: 5px 5px 5px 5px;
+}
 .column {
   float: left;
   width: 25%;
@@ -183,16 +196,6 @@ ul {
   display: table;
   clear: both;
 }
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-
-}
-
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {

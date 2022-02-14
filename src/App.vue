@@ -21,7 +21,7 @@
   color: #8b9a71;
 }
 body {
-  background: #f2f0eb;
+  background: #f5f5f5;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
@@ -50,7 +50,7 @@ p {
   font-family: Helvetica;
 }
 a {
-  color: #8b9a71;
+  color: #a3ccc9;
 }
 #nav {
   padding: 30px;
