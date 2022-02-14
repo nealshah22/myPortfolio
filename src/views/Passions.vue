@@ -67,7 +67,7 @@
             <div class="card">
               <div class="container">
                 <h3>This website!</h3>
-                <h5>I programmed this wesbite from scratch. Every component, every title, every page you see here, I coded myself!</h5>
+                <h5>I programmed this website from scratch. Every component, every title, every page you see here, I coded myself!</h5>
                 <h5>
                   <u>This website is:</u>
                 </h5>
