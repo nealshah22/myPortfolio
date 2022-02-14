@@ -12,7 +12,7 @@
         <div class="container">
           <h3>Classes</h3>
           <h5>
-<u>Out of 32 classes taken by June 2022, 11 were AP & 19 were honors. </u>
+Out of 32 classes taken by June 2022, 11 were AP & 19 were honors. 
           </h5>
           <p>
             <ul>

@@ -41,7 +41,7 @@
               <div class="container">
                 <h3>Part-time Paid Instructor</h3>
                 <h5>
-                  <u>Since November 2021:</u>
+                  Since November 2021:
                 </h5>
                 <p>
                   <ul>
@@ -69,7 +69,7 @@
                 <h3>This website!</h3>
                 <h5>I programmed this website from scratch. Every component, every title, every page you see here, I coded myself!</h5>
                 <h5>
-                  <u>This website is:</u>
+                  This website is:
                 </h5>
                 <p>
                   <ul>

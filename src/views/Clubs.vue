@@ -21,7 +21,7 @@
             <div class="container">
               <h3><b>Volunteering Events</b></h3>
               <h5>Increased average monthly events from 1-2 to 6-7 events </h5>
-              <h5><u>Since October 2021:</u></h5>
+              <h5>Since October 2021:</h5>
               <p>
                 <ul>
                   <li>Hosted food drive (150 items donated)</li>
@@ -42,7 +42,7 @@
                 <!-- as presidnet, recruited/advertised, motivated -->
                 <!-- LEFT ALIGN -->
                 <h5>Utilized Instagram and school resources to market the Red Cross Club.</h5>
-                <h5><u>Club stats:</u></h5>
+                <h5>Club stats:</h5>
                 <p>
                   <ul>
                     <li>Increased number of members from previous year by 115%</li>
@@ -64,7 +64,7 @@
             <div class="container">
               <h3><b>Club Website</b></h3>
               <h5>Reconstructed and renovated <a href="https://ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
-              <h5><u>My additions to the site from last year:</u></h5>
+              <h5>My additions to the site from last year:</h5>
               <p>
                 <ul>
                   <li>Constructed a digital form integrated in the website for members to suggest volunteering events</li>
