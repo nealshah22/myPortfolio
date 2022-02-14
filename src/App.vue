@@ -3,7 +3,7 @@
     <router-link style="text-decoration: none;" to="/">Home</router-link> |
     <router-link style="text-decoration: none;" :to="{ name: 'School' }">School</router-link> |
     <router-link style="text-decoration: none;" :to="{ name: 'Passions' }">Passions</router-link> |
-    <router-link style="text-decoration: none;" :to="{ name: 'Clubs' }">Clubs & Community Service</router-link>
+    <router-link style="text-decoration: none;" :to="{ name: 'Clubs' }">Clubs</router-link>
   </div>
   <vue-page-transition name="fade-in-right">
   <router-view/>
