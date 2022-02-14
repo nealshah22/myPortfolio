@@ -64,15 +64,30 @@
       <div class="row">
         <div class="column">
           <transition name="fade" appear>
+            <div class="card">
+              <div class="container">
+                <h3>This website!</h3>
+                <h5>I programmed this wesbite from scratch. Every component, every title, every page you see here, I coded myself!</h5>
+                <h5>
+                  <u>This website is:</u>
+                </h5>
+                <p>
+                  <ul>
+                    <li>Built using vueJS, a framework that utilized HTML, JavaScript, & CSS - all languages I now understand well!</li>
+                    <li>Is ran on my own domain - www.nealshah.info. I learned to use Netlify's Build service to deploy my website to the world! </li>
+                  </ul>
+                </p>
+                <p style="margin:1%;text-align: center">
+                  <a href="https://github.com/nealshah22/myportfolio" target="_blank">Click to view GitHub repository!</a>
+                </p>
+              </div>
+            </div>
+          </transition>
+        </div>
+        <div class="column">
+          <transition name="fade" appear>
             <div class="card" style="margin-bottom:5%">
-              <agile :dots="true" :infinite="false">
-                <div class="slide">
-                  <img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1590177494/excel2_zfadq1.png" alt="Python X Excel" style="width:100%">
-                </div>
-                <div class="slide">
-                  <iframe src="https://nealshah22.github.io/hoursUpdate/" width="100%" height="550" frameborder="0" scrolling="no"></iframe>
-                </div>
-              </agile>
+                  <img src="https://i.imgur.com/SYe3uqh.png" alt="Python X Excel" class="responsive">
               <div class="container">
                 <h3><b>Automated Volunteer Hours Tracking</b></h3>
                 <h5>Developed a local python program to automatically read and update volunteer hours upon submission.</h5>
@@ -91,28 +106,6 @@
             </div>
           </transition>
         </div>
-        <div class="column">
-          <transition name="fade" appear>
-            <div class="card">
-              <div class="container">
-                <h3>This website!</h3>
-                <h5>I programmed this virtual resume from scratch. Every component, every title, every page you see here, I coded myself!</h5>
-                <h5>
-                  <u>This website is:</u>
-                </h5>
-                <p>
-                  <ul>
-                    <li>Built using vueJS, a framework that utilized HTML, JavaScript, & CSS - all languages I now understand well!</li>
-                    <li>Is ran on my own domain - www.nealshah.info. I learned to use Netlify's Build service to deploy my website to the world! </li>
-                  </ul>
-                </p>
-                <p style="margin:1%;text-align: center">
-                  <a href="https://github.com/nealshah22/myportfolio" target="_blank">Click to view GitHub repository!</a>
-                </p>
-              </div>
-            </div>
-          </transition>
-        </div>
       </div>
 
     </div>
@@ -125,6 +118,11 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.responsive {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
 * {
   box-sizing: border-box;
 }
@@ -149,7 +147,7 @@ body {
 
 h1{
   margin: 1%;
-  font-size: 250%;
+  font-size: 275%;
 }
 h5 {
   text-align: left;

@@ -50,7 +50,7 @@ p {
   font-family: Helvetica;
 }
 a {
-  color: #a3ccc9;
+  color: #87d6d0;
 }
 #nav {
   padding: 30px;

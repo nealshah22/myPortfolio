@@ -9,7 +9,7 @@
       </transition>
 
       <transition name="bounce" appear>
-        <h3>I programmed this virtual resume from scratch. Every component, every animation, every page you see here, I coded myself!</h3>
+        <h3>I programmed this website from scratch. Every component, every animation, every page you see here, I coded myself!</h3>
       </transition>
 
     </div>

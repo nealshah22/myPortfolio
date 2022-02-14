@@ -136,7 +136,7 @@ body {
 
 h1{
   margin: 1%;
-  font-size: 250%;
+  font-size: 275%;
 }
 h5 {
   text-align: left;
