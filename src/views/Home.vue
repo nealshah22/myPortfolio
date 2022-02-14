@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="column">
+    <div class="column left">
       <transition name="bounce" appear>
         <p style="font-size: 400%">Neal Shah</p>
       </transition>
@@ -13,11 +13,11 @@
       </transition>
 
     </div>
-    <!-- <div class="column right">
+    <div class="column right">
       <transition name="bounce" appear>
       <img src="https://i.imgur.com/HoQ8eVg.png" alt="This is me!" class="responsive">
     </transition>
-    </div> -->
+    </div>
   </div>
 
 </template>
@@ -35,6 +35,7 @@ export default {
 .responsive {
   width: 100%;
   height: auto;
+  max-width: 400px;
 }
 * {
   box-sizing: border-box;
@@ -76,7 +77,7 @@ img {
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%;
+  width: 50%;
   padding: 10px;
 }
 
@@ -87,11 +88,11 @@ img {
   clear: both;
 }
 .left {
-  width: 75%;
+  width: 65%;
 }
 
 .right {
-  width: 25%;
+  width: 35%;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
