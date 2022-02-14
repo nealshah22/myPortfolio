@@ -1,5 +1,10 @@
-# Neal's Virtual Resume
+# Neal's College Application Updates
 Welcome to Neal Shah's Virtual Resume!
+
+## Access website
+
+www.nealshah.info
+
 ## Project setup
 ```
 npm install
