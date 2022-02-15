@@ -3,8 +3,6 @@
   <div class="row">
     <div class="column">
       <transition name="bounce" appear><h1>Taekwondo</h1></transition>
-
-
       <div class="row">
         <div class="column">
           <transition name="fade" appear>
@@ -48,6 +46,32 @@
                     <li>Grown my skill set to independetly teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree Black Belt)</li>
                     <li>Spent over 20 hours judging Taekwondo testings and tournaments at my studio</li>
                     <li>Began teaching private 1-on-1 lessons for students requiring further assitance outside of class</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </transition>
+        </div>
+        <div class="column">
+          <transition name="fade" appear>
+            <div class="card">
+              <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="40000">
+                <div class="slide">
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/j-Ur9hc5YGk?autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="slide">
+                  <img src="https://i.imgur.com/Hd9yFVi.jpg" alt="My medal!" style="width:100%">
+                </div>
+              </agile>
+              <div class="container">
+                <h3>Johnson's Martial Arts Tournament</h3>
+                <h5>
+                  Placement:
+                </h5>
+                <p>
+                  <ul>
+                    <li>1st place in Forms Division</li>
+                    <li>3rd place in Sparring Division</li>
                   </ul>
                 </p>
               </div>
@@ -206,7 +230,7 @@ img {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .column {
     width: 100%;
   }
