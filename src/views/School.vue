@@ -1,7 +1,6 @@
 <template lang="html">
 <transition name="bounce" appear>
-  <h1>School Stats
-</h1>
+  <h1>Academic Achievements</h1>
 </transition>
 
   <div class="row">
@@ -12,22 +11,24 @@
         <div class="container">
           <h3>Classes</h3>
           <h5>
-Out of 32 classes taken by June 2022, 11 were AP & 19 were honors. 
+Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
           </h5>
           <p>
             <ul>
-              <li>AP Psychology</li>
-              <li>AP Human Geography</li>
-              <li>AP English Langauage & Composition (exam only)</li>
               <li>AP Calculus AB</li>
               <li>AP Calculus BC</li>
-              <li>AP Computer Science Principles</li>
-              <li>AP Environmental Science</li>
-              <li>AP English Literature & Composition</li>
-              <li>AP Computer Science A</li>
               <li>AP Comparative Government & Politics</li>
-              <li>AP US Government & Politics</li>
+              <li>AP Computer Science A</li>
+              <li>AP Computer Science Principles</li>
+              <li>AP English Langauage & Composition (exam only)</li>
+              <li>AP English Literature & Composition</li>
+              <li>AP Environmental Science</li>
+              <li>AP Human Geography</li>
+              <li>AP Psychology</li>
               <li>AP Statistics</li>
+              <li>AP US Government & Politics</li>
+
+
             </ul>
           </p>
         </div>
@@ -35,6 +36,17 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
       </div>
 </transition>
     </div>
+    <div class="column">
+      <transition name="fade" appear>
+        <div class="card">
+          <img src="https://i.imgur.com/PknjJ3h.png" alt="sat score" style="width:100%">
+          <div class="container">
+            <h3>SAT Score (Nov 2020)</h3>
+          </div>
+        </div>
+      </transition>
+    </div>
+
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
@@ -64,16 +76,7 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
       </transition>
 
     </div>
-    <div class="column">
-      <transition name="fade" appear>
-        <div class="card">
-          <img src="https://i.imgur.com/PknjJ3h.png" alt="sat score" style="width:100%">
-          <div class="container">
-            <h3>SAT Score (Nov 2020)</h3>
-          </div>
-        </div>
-      </transition>
-    </div>
+
 
   </div>
 </template>

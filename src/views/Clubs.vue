@@ -92,7 +92,7 @@
         <h5>Coordinating an end of year, "TED-Talk" style speech competition with 2 other schools.</h5>
         <p>
           <ul>
-            <li>Succesfully scheduled an auditorium, stage, & necessary equipment for this showcase</li>
+            <li>Collaborated with school administrators to reserve an auditorium, stage, & necessary equipment for a succesful showcase</li>
             <li>Expecting 30 competitors with an estimated audience of roughly 100 students, parents, and faculty members</li>
           </ul>
         </p>
