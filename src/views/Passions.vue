@@ -69,12 +69,12 @@
                 <h3>This website!</h3>
                 <h5>I programmed this website from scratch. Every component, every title, every page you see here, I coded myself!</h5>
                 <h5>
-                  This website is:
+                  This website is...
                 </h5>
                 <p>
                   <ul>
                     <li>Built using vueJS, a framework that utilized HTML, JavaScript, & CSS - all languages I now understand well!</li>
-                    <li>Is ran on my own domain - www.nealshah.info. I learned to use Netlify's Build service to deploy my website to the world! </li>
+                    <li>Hosted on my own domain - www.nealshah.info. I learned to use Netlify's Build service to deploy my website to the world!</li>
                   </ul>
                 </p>
                 <p style="margin:1%;text-align: center">

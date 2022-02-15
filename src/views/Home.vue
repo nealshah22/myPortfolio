@@ -15,7 +15,7 @@
     </div>
     <div class="column right">
       <transition name="bounce" appear>
-      <img src="https://i.imgur.com/UIS3CqX.jpg" alt="This is me!" class="responsive">
+      <img src="https://i.imgur.com/HoQ8eVg.png" alt="This is me!" class="responsive">
     </transition>
     </div>
   </div>
