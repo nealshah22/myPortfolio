@@ -7,9 +7,9 @@
     <div class="column">
       <transition name="fade" appear>
       <div class="card" style="margin-bottom:5%">
+        <h3>Classes</h3>
         <img src="https://highlandrambler.org/wp-content/uploads/2019/11/AP-College-Board.jpg" alt="AP Classes" style="width:100%">
         <div class="container">
-          <h3>Classes</h3>
           <h5>
 Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
           </h5>
@@ -39,9 +39,9 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
+          <h3>SAT Score (Nov 2020)</h3>
           <img src="https://i.imgur.com/PknjJ3h.png" alt="sat score" style="width:100%">
           <div class="container">
-            <h3>SAT Score (Nov 2020)</h3>
           </div>
         </div>
       </transition>
@@ -50,6 +50,7 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
+          <h3>Honor Societies</h3>
           <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
             <div class="slide">
               <img src="https://i.imgur.com/zKCvJeT.png" alt="NHS" style="width:100%">
@@ -62,7 +63,6 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
             </div>
           </agile>
           <div class="container">
-            <h3>Honor Societies</h3>
             <h5>
               <ul>
                 <li>Member of National Honor Society</li>

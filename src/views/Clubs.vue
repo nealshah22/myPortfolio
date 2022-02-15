@@ -9,6 +9,7 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card">
+              <h3><b>Volunteering Events</b></h3>
               <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
                 <div class="slide">
                   <img src="https://i.imgur.com/XOxInM1.jpg" alt="WebImage" style="width:100%">
@@ -21,7 +22,6 @@
                 </div>
               </agile>
               <div class="container">
-                <h3><b>Volunteering Events</b></h3>
                 <h5>Increased average monthly events from 1-2 to 6-7 events </h5>
                 <h5>Since October 2021:</h5>
                 <p>
@@ -38,9 +38,9 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card">
+              <h3><b>Members & Attendance</b></h3>
               <img src="https://i.imgur.com/iW5esKl.png" alt="WebImage" style="width:100%">
                 <div class="container">
-                  <h3><b>Members & Attendance</b></h3>
                   <!-- as presidnet, recruited/advertised, motivated -->
                   <!-- LEFT ALIGN -->
                   <h5>Utilized Instagram and school resources to market the Red Cross Club.</h5>
@@ -59,12 +59,11 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card">
+              <h3><b>Club Website</b></h3>
               <p><a href="https://www.ghredcross.weebly.com" target="_blank">
-
                 <img src="https://i.imgur.com/rm3NpeC.png" alt="WebImage" style="width:100%">
               </a> </p>
               <div class="container">
-                <h3><b>Club Website</b></h3>
                 <h5>Reconstructed and renovated <a href="https://ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
                 <h5>My additions to the site from last year:</h5>
                 <p>
@@ -88,9 +87,9 @@
         <div class="column">
           <transition name="fade" appear>
           <div class="card" style="margin-bottom:5%">
+            <h3>Inter-school Speech Competition</h3>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MIOpVO8uxg?autoplay=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picsture" allowfullscreen></iframe>
             <div class="container">
-              <h3>Inter-school Speech Competition</h3>
               <h5>Designed, edited, and published a video marketing the TED-Ed club to students. (Featured on school wesbite)</h5>
               <h5>Individually providing assistance & resources in developing students' public speaking skills in preparation for competition</h5>
               <h5>Coordinating an end of year, "TED-Talk" style speech competition with 2 other schools.</h5>

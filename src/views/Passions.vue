@@ -7,6 +7,8 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card">
+              <h3><b>4th Degree Black Belt</b></h3>
+
               <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="40000">
                 <div class="slide">
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/D35z6f7oDPY?autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -19,7 +21,6 @@
                 </div>
               </agile>
               <div class="container">
-                <h3><b>4th Degree Black Belt</b></h3>
                 <h5>After training for over 9 years I earned my 4th degree black belt in late October 2021.</h5>
                 <p>
                   <ul>
@@ -55,16 +56,17 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card">
+              <h3>Johnson's Martial Arts Tournament</h3>
+
               <agile :dots="true" :infinite="true">
                 <div class="slide">
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/j-Ur9hc5YGk?autoplay=0&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="slide">
-                  <img src="https://i.imgur.com/Hd9yFVi.jpg" alt="My medal!" style="width:100%">
+                  <img src="https://i.imgur.com/xDD7YzD.jpg" alt="My medal!" style="width:100%">
                 </div>
               </agile>
               <div class="container">
-                <h3>Johnson's Martial Arts Tournament</h3>
                 <h5>
                   Placement:
                 </h5>
@@ -111,9 +113,9 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card" style="margin-bottom:5%">
+              <h3><b>Automated Volunteer Hours Tracking</b></h3>
                   <img src="https://i.imgur.com/SYe3uqh.png" alt="Python X Excel" class="responsive">
               <div class="container">
-                <h3><b>Automated Volunteer Hours Tracking</b></h3>
                 <h5>Developed a local python program to automatically read and update volunteer hours upon submission.</h5>
                 <h5>The program:</h5>
                 <p>
