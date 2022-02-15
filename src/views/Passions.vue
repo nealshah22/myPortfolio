@@ -55,7 +55,7 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card">
-              <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="40000">
+              <agile :dots="true" :infinite="true">
                 <div class="slide">
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/j-Ur9hc5YGk?autoplay=0&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
