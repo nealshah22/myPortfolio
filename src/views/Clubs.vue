@@ -87,7 +87,7 @@
       <div class="row">
         <div class="column">
           <transition name="fade" appear>
-          <div class="card" style=" width:100%">
+          <div class="card" style="margin-right: 15%; width:100%">
             <h3>Inter-school Speech Competition</h3>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MIOpVO8uxg?autoplay=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picsture" allowfullscreen></iframe>
             <div class="container">

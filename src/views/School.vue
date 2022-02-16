@@ -53,7 +53,7 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
           <h3>Honor Societies</h3>
           <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
             <div class="slide">
-              <img src="https://i.imgur.com/zKCvJeT.png" alt="NHS" style="width:100%">
+                <img src="https://i.imgur.com/zKCvJeT.png" alt="NHS" style="width:100%; height:100%">
             </div>
             <div class="slide">
               <img src="https://www.chatham.k12.nc.us/cms/lib/NC01911141/Centricity/Domain/2884/NTHS-logo_Vertical_RGB_transparent_300dpi-01.png" alt="NTHS" style="width:100%">
@@ -75,6 +75,18 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
         </div>
       </transition>
 
+    </div>
+    <div class="column">
+      <transition name="fade" appear>
+        <div class="card">
+          <h3>Current Grades 2/15/22</h3>
+            <div class="imageContainer">
+          <img src="https://i.imgur.com/F8drR9s.png" alt="sat score" style="width:100%">
+        </div>
+          <div class="container">
+          </div>
+        </div>
+      </transition>
     </div>
 
 
@@ -186,6 +198,10 @@ img {
   100% {
     transform: scale(1);
   }
+}
+.imageContainer > img:hover {
+  /* width: 700px;
+  height: 500px; */
 }
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
