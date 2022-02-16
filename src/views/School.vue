@@ -11,7 +11,7 @@
         <img src="https://highlandrambler.org/wp-content/uploads/2019/11/AP-College-Board.jpg" alt="AP Classes" style="width:100%">
         <div class="container">
           <h5>
-Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
+            Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
           </h5>
           <p>
             <ul>
@@ -39,9 +39,12 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <h3>SAT Score (Nov 2020)</h3>
-          <img src="https://i.imgur.com/PknjJ3h.png" alt="sat score" style="width:100%">
+          <h3>Current Grades 2/15/22</h3>
+            <div class="imgHover">
+          <img src="https://i.imgur.com/F8drR9s.png" alt="current grades" style="width:100%">
+        </div>
           <div class="container">
+            <p style="text-align:center;">Hover over image to expand</p>
           </div>
         </div>
       </transition>
@@ -49,10 +52,8 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <h3>Current Grades 2/15/22</h3>
-            <div class="imageContainer">
-          <img src="https://i.imgur.com/F8drR9s.png" alt="sat score" style="width:100%">
-        </div>
+          <h3>SAT Score (Nov 2020)</h3>
+          <img src="https://i.imgur.com/PknjJ3h.png" alt="sat score" style="width:100%">
           <div class="container">
           </div>
         </div>
@@ -182,6 +183,15 @@ img {
   border-radius: 5px 5px 5px 5px;
 }
 
+.imgHover{
+  transition:transform 0.25s ease;
+  }
+
+.imgHover:hover {
+    -webkit-transform:scale(2);
+    transform:scale(2);
+}
+
 .bounce-enter-active {
   animation: bounce-in 0.5s;
 }
@@ -198,10 +208,6 @@ img {
   100% {
     transform: scale(1);
   }
-}
-.imageContainer > img:hover {
-  /* width: 700px;
-  height: 500px; */
 }
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {

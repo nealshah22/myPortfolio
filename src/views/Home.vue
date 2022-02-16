@@ -72,7 +72,7 @@ color: #4d4d4d;
 }
 
 img {
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 5px 5px 5px 5px;
 }
 /* Create two equal columns that floats next to each other */
 .column {
