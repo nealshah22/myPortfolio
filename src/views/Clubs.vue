@@ -82,7 +82,7 @@
 
     <div class="column right">
       <transition name="bounce" appear>
-      <h1>TED-Ed Club President</h1>
+      <h1 style="font-size:240%">TED-Ed Club President</h1>
       </transition>
       <div class="row">
         <div class="column">
