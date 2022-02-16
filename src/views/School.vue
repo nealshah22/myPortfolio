@@ -1,4 +1,6 @@
 <template lang="html">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <transition name="bounce" appear>
   <h1>Academic Achievements</h1>
 </transition>
@@ -210,6 +212,13 @@ img {
   }
 }
 /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -217,5 +226,11 @@ img {
     margin-bottom: 20px;
   }
 }
+/* @media screen and (min-width: 600px) {
+  .imageHover:hover{
+    -webkit-transform:scale(1);
+    transform:scale(1);
+  } */
+/* } */
 
 </style>

@@ -96,9 +96,17 @@ img {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .column {
-    width: 100%;
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
-</style>
+@media screen and (max-width: 730px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}</style>

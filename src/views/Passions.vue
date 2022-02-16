@@ -7,7 +7,7 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card">
-              <h3><b>4th Degree Black Belt</b></h3>
+              <h3><b>4th Degree Black Belt Testing</b></h3>
 
               <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="40000">
                 <div class="slide">
