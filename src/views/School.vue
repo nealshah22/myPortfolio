@@ -46,7 +46,18 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
         </div>
       </transition>
     </div>
-
+    <div class="column">
+      <transition name="fade" appear>
+        <div class="card">
+          <h3>Current Grades 2/15/22</h3>
+            <div class="imageContainer">
+          <img src="https://i.imgur.com/F8drR9s.png" alt="sat score" style="width:100%">
+        </div>
+          <div class="container">
+          </div>
+        </div>
+      </transition>
+    </div>
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
@@ -76,18 +87,7 @@ Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
       </transition>
 
     </div>
-    <div class="column">
-      <transition name="fade" appear>
-        <div class="card">
-          <h3>Current Grades 2/15/22</h3>
-            <div class="imageContainer">
-          <img src="https://i.imgur.com/F8drR9s.png" alt="sat score" style="width:100%">
-        </div>
-          <div class="container">
-          </div>
-        </div>
-      </transition>
-    </div>
+
 
 
   </div>
@@ -129,7 +129,7 @@ h5 {
   margin: 0 auto;
   padding: 1.5%;
   font-size: 110%;
-  color: #f5f5f5;
+  color: #fcfcfc;
 
 }
 p {
@@ -138,7 +138,7 @@ p {
   margin: 0 auto;
   padding: 0.25%;
   font-size: 105%;
-  color: #f5f5f5;
+  color: #fcfcfc;
 
 }
 h3 {
@@ -146,7 +146,7 @@ h3 {
   padding: 1.5%;
   font-size: 200%;
   text-decoration: underline;
-  color: #f5f5f5;
+  color: #fcfcfc;
 }
 ul {
   margin:   0 auto;

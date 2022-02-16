@@ -149,7 +149,7 @@ h5 {
   margin: 0 auto;
   padding: 1.5%;
   font-size: 110%;
-  color: #f5f5f5;
+  color: #fcfcfc;
 
 }
 p {
@@ -158,7 +158,7 @@ p {
   margin: 0 auto;
   padding: 0.25%;
   font-size: 105%;
-  color: #f5f5f5;
+  color: #fcfcfc;
 
 }
 h3 {
@@ -166,7 +166,7 @@ h3 {
   padding: 1.5%;
   font-size: 200%;
   text-decoration: underline;
-  color: #f5f5f5;
+  color: #fcfcfc;
 }
 ul {
   margin:   0 auto;
@@ -201,6 +201,9 @@ img {
 }
 .third{
   width: 33%
+}
+.nopad{
+  padding:0px
 }
 /* Clear floats after the columns */
 .row:after {
