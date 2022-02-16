@@ -1,12 +1,12 @@
 <template lang="html">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <div class="row">
-    <div class="column">
+    <div class="column left">
       <transition name="bounce" appear>
-      <h1>President of Red Cross Club</h1>
+      <h1>Red Cross Club President</h1>
       </transition>
       <div class="row">
-        <div class="column">
+        <div class="column third">
           <transition name="fade" appear>
             <div class="card">
               <h3><b>Volunteering Events</b></h3>
@@ -35,7 +35,7 @@
             </div>
           </transition>
         </div>
-        <div class="column">
+        <div class="column third">
           <transition name="fade" appear>
             <div class="card">
               <h3><b>Members & Attendance</b></h3>
@@ -56,7 +56,7 @@
             </div>
           </transition>
         </div>
-        <div class="column">
+        <div class="column third">
           <transition name="fade" appear>
             <div class="card">
               <h3><b>Club Website</b></h3>
@@ -79,14 +79,15 @@
         </div>
       </div>
     </div>
-    <div class="column">
+
+    <div class="column right">
       <transition name="bounce" appear>
-      <h1>President of TED-Ed Club</h1>
+      <h1>TED-Ed Club President</h1>
       </transition>
       <div class="row">
         <div class="column">
           <transition name="fade" appear>
-          <div class="card" style="margin-bottom:5%">
+          <div class="card" style=" width:100%">
             <h3>Inter-school Speech Competition</h3>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MIOpVO8uxg?autoplay=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picsture" allowfullscreen></iframe>
             <div class="container">
@@ -189,10 +190,18 @@ img {
 
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;
 }
-
+.left {
+  width: 73%
+}
+.right{
+  width: 27%
+}
+.third{
+  width: 33%
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
