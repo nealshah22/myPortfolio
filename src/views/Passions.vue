@@ -35,8 +35,6 @@
         <div class="column">
           <transition name="fade" appear>
             <div class="card">
-
-              <img src="" alt="">
               <div class="container">
                 <h3>Part-time Paid Instructor</h3>
                 <h5>
@@ -93,7 +91,7 @@
             <div class="card">
               <div class="container">
                 <h3>This website!</h3>
-                <h5>I programmed this website from scratch. Every component, every title, every page you see here, I coded myself!</h5>
+                <h5>I designed, programmed, and deployed this website on a public URL in under 2 weeks.</h5>
                 <h5>
                   This website is...
                 </h5>

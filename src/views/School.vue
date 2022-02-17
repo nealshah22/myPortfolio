@@ -190,8 +190,8 @@ img {
   }
 
 .imgHover:hover {
-    -webkit-transform:scale(2);
-    transform:scale(2);
+    -webkit-transform:scale(2.25);
+    transform:scale(2.25);
 }
 
 .bounce-enter-active {
