@@ -23,9 +23,10 @@
               </agile>
               <div class="container">
                 <h5>Increased average monthly events from 1-2 to 6-7 events </h5>
-                <h5>Since October 2021:</h5>
+                <h5>I have initiated the following efforts since October 2021:</h5>
                 <p>
                   <ul>
+                    <li>Donated over 300 clothing items to local community outreach agency in a school-wide collection drive</li>
                     <li>Hosted food drive (150 items donated)</li>
                     <li>Collected 200+ hygine products for over 75 underprivelleged familes</li>
                     <li>Coordinated and fulfilled 4-5 in-person volunteering events, monthly</li>
@@ -39,7 +40,7 @@
           <transition name="fade" appear>
             <div class="card">
               <h3><b>Members & Attendance</b></h3>
-              <img src="https://i.imgur.com/iW5esKl.png" alt="WebImage" style="width:100%">
+              <img src="https://i.postimg.cc/Dwmr2QZp/IMG-7690.jpg" alt="WebImage" style="width:100%">
                 <div class="container">
                   <!-- as presidnet, recruited/advertised, motivated -->
                   <!-- LEFT ALIGN -->
@@ -60,7 +61,7 @@
           <transition name="fade" appear>
             <div class="card">
               <h3><b>Club Website</b></h3>
-              <p><a href="https://www.ghredcross.weebly.com" target="_blank">
+              <p><a href="https://ghredcross.weebly.com" target="_blank">
                 <img src="https://i.imgur.com/rm3NpeC.png" alt="WebImage" style="width:100%">
               </a> </p>
               <div class="container">
@@ -143,13 +144,14 @@ body {
 h1{
   margin: 1%;
   font-size: 275%;
+  color: #8b9a71;
 }
 h5 {
   text-align: left;
   margin: 0 auto;
   padding: 1.5%;
   font-size: 110%;
-  color: #fcfcfc;
+  color: #d9d9d9;
 
 }
 p {
@@ -158,15 +160,15 @@ p {
   margin: 0 auto;
   padding: 0.25%;
   font-size: 105%;
-  color: #fcfcfc;
+  color: #d9d9d9;
 
 }
 h3 {
   margin: 0 auto;
   padding: 1.5%;
   font-size: 200%;
-  text-decoration: underline;
-  color: #fcfcfc;
+  /* text-decoration: underline; */
+  color: #d9d9d9;
 }
 ul {
   margin:   0 auto;
@@ -181,7 +183,9 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #8b9a71;
+  background-color: #383838;
+  border: 7px solid;
+  border-color: #8b9a71;
   border-radius: 5px; /* 5px rounded corners */
 }
 img {

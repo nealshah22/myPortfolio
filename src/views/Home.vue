@@ -51,7 +51,7 @@ h1 {
 }
 h3 {
   font-family: Helvetica;
-color: #4d4d4d;
+color: #c7c7c7;
 }
 .bounce-enter-active {
   animation: bounce-in 0.5s;

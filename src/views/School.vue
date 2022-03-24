@@ -126,13 +126,14 @@ body {
 h1{
   margin: 1%;
   font-size: 275%;
+  color: #8b9a71;
 }
 h5 {
   text-align: left;
   margin: 0 auto;
   padding: 1.5%;
   font-size: 110%;
-  color: #fcfcfc;
+  color: #d9d9d9;
 
 }
 p {
@@ -141,15 +142,15 @@ p {
   margin: 0 auto;
   padding: 0.25%;
   font-size: 105%;
-  color: #fcfcfc;
+  color: #d9d9d9;
 
 }
 h3 {
   margin: 0 auto;
   padding: 1.5%;
   font-size: 200%;
-  text-decoration: underline;
-  color: #fcfcfc;
+  /* text-decoration: underline; */
+  color: #d9d9d9;
 }
 ul {
   margin:   0 auto;
@@ -178,7 +179,9 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #8b9a71;
+  background-color: #383838;
+  border: 7px solid;
+  border-color: #8b9a71;
   border-radius: 5px; /* 5px rounded corners */
 }
 img {

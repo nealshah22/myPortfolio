@@ -21,7 +21,7 @@
   color: #8b9a71;
 }
 body {
-  background: #fcfcfc;
+  background: #242424;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
