@@ -21,7 +21,7 @@
             <p>
               <ul>
                 <li>Supervise up to 5 employees including baristas and kitchen staff</li>
-                <li>Conduct a final count of cash register prior to closing</li>
+                <li>Conduct a final count of cash in register prior to closing</li>
                 <li>Spearhead training of new-hires</li>
                 <li>Communicate with customers to resolve any potential issues</li>
                 <li>Oversee business efficiency and operations for duration of shift</li>

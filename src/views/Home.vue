@@ -15,7 +15,7 @@
     </div>
     <div class="column right">
       <transition name="bounce" appear>
-      <img src="https://i.imgur.com/HoQ8eVg.png" alt="This is me!" class="responsive">
+      <img src="https://i.postimg.cc/hGZ5rFPD/Photo-2022-02-10-010011.png" alt="This is me!" class="responsive">
     </transition>
     </div>
   </div>
@@ -49,7 +49,7 @@ color: #8b9a71;
 h1 {
   font-family: Helvetica;
   color: #8b9a71;
-  
+
 }
 h3 {
   font-family: Helvetica;

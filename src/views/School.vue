@@ -43,10 +43,10 @@
         <div class="card">
           <h3>Current Grades 2/15/22</h3>
             <div class="imgHover">
-          <img src="https://i.imgur.com/F8drR9s.png" alt="current grades" style="width:100%">
+          <img src="https://i.postimg.cc/bwJr5b9z/Neal-Shah-Feb-2022-Gradesasdf.png" alt="current grades" style="width:100%">
         </div>
           <div class="container">
-            <p style="text-align:center;">Hover over image to expand</p>
+            <p style="text-align:center;"><b>Hover to expand</b></p>
           </div>
         </div>
       </transition>
@@ -55,7 +55,7 @@
       <transition name="fade" appear>
         <div class="card">
           <h3>SAT Score (Nov 2020)</h3>
-          <img src="https://i.imgur.com/PknjJ3h.png" alt="sat score" style="width:100%">
+          <img src="https://i.postimg.cc/VNPytP63/sat-1.png" alt="sat score" style="width:100%">
           <div class="container">
           </div>
         </div>
@@ -67,13 +67,13 @@
           <h3>Honor Societies</h3>
           <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
             <div class="slide">
-                <img src="https://i.imgur.com/zKCvJeT.png" alt="NHS" style="width:100%; height:100%">
+                <img src="https://i.postimg.cc/FzRwv9WJ/oie-transparent-3.png" alt="NHS" style="width:100%; height:100%">
             </div>
             <div class="slide">
               <img src="https://www.chatham.k12.nc.us/cms/lib/NC01911141/Centricity/Domain/2884/NTHS-logo_Vertical_RGB_transparent_300dpi-01.png" alt="NTHS" style="width:100%">
             </div>
             <div class="slide">
-              <img src="https://i.imgur.com/sWl3hFy.png" alt="Rho Kappa" style="width:100%">
+              <img src="https://i.postimg.cc/v8qpzVT7/oie-transparent-2.png" alt="Rho Kappa" style="width:100%">
             </div>
           </agile>
           <div class="container">

@@ -43,7 +43,7 @@
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/j-Ur9hc5YGk?autoplay=0&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="slide">
-                  <img src="https://i.imgur.com/xDD7YzD.jpg" alt="My medal!" style="width:100%">
+                  <img src="https://i.postimg.cc/4xzLr7fS/IMG-3432.jpg" alt="My medal!" style="width:100%">
                 </div>
               </agile>
               <div class="container">
@@ -94,7 +94,7 @@
           <transition name="fade" appear>
             <div class="card" style="margin-bottom:5%">
               <h3><b>Automated Volunteer Hours Tracking</b></h3>
-                  <img src="https://i.imgur.com/SYe3uqh.png" alt="Python X Excel" class="responsive">
+                  <img src="https://i.postimg.cc/FKrMpgyZ/oie-transparent-4.png" alt="Python X Excel" class="responsive">
               <div class="container">
                 <h5>Developed a local python program to automatically read and update volunteer hours upon submission.</h5>
                 <h5>The program:</h5>

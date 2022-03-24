@@ -12,13 +12,16 @@
               <h3><b>Volunteering Events</b></h3>
               <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
                 <div class="slide">
-                  <img src="https://i.imgur.com/XOxInM1.jpg" alt="WebImage" style="width:100%">
+                  <img src="https://i.postimg.cc/KYMHJk6j/150-2.png" alt="Clothing Drive" style="width:100%">
                 </div>
                 <div class="slide">
-                  <img src="https://i.imgur.com/HsrO8c5.jpg" alt="WebImage" style="width:100%">
+                  <img src="https://i.postimg.cc/yxbmMn9H/IMG-8686.jpg" alt="Essential Baskets" style="width:100%">
                 </div>
                 <div class="slide">
-                  <img src="https://i.imgur.com/K5KNvOh.png" alt="WebImage" style="width:100%">
+                  <img src="https://i.postimg.cc/rFRxd1xD/IMG-8707.jpg" alt="Blanket Event" style="width:100%">
+                </div>
+                <div class="slide">
+                  <img src="https://i.postimg.cc/0Nsgw04Z/150-1.png" alt="Food Drive" style="width:100%">
                 </div>
               </agile>
               <div class="container">
@@ -62,7 +65,7 @@
             <div class="card">
               <h3><b>Club Website</b></h3>
               <p><a href="https://ghredcross.weebly.com" target="_blank">
-                <img src="https://i.imgur.com/rm3NpeC.png" alt="WebImage" style="width:100%">
+                <img src="https://i.postimg.cc/Kc65xGHS/Screenshot-2022-02-09-235444.png" alt="Website Screenshot" style="width:100%">
               </a> </p>
               <div class="container">
                 <h5>Reconstructed and renovated <a href="https://ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
