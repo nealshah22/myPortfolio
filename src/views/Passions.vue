@@ -17,7 +17,7 @@
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/G5KSPO5ThxE?autoplay=0&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="slide">
-                  <img src="https://i.imgur.com/YG6IFL4.jpg" alt="webimg" style="width:100%">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnsonstkd%2Fposts%2F4887328824633118&show_text=true&width=500" width="100%" height="590" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
               </agile>
               <div class="container">
@@ -32,25 +32,7 @@
             </div>
           </transition>
         </div>
-        <div class="column">
-          <transition name="fade" appear>
-            <div class="card">
-              <div class="container">
-                <h3>Part-time Paid Instructor</h3>
-                <h5>
-                  Since November 2021:
-                </h5>
-                <p>
-                  <ul>
-                    <li>Grown my skill set to independetly teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree Black Belt)</li>
-                    <li>Spent over 20 hours judging Taekwondo testings and tournaments at my studio</li>
-                    <li>Began teaching private 1-on-1 lessons for students requiring further assitance outside of class</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </transition>
-        </div>
+
         <div class="column">
           <transition name="fade" appear>
             <div class="card">

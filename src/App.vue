@@ -3,7 +3,8 @@
     <router-link style="text-decoration: none;" to="/">Home</router-link> |
     <router-link style="text-decoration: none;" :to="{ name: 'School' }">School</router-link> |
     <router-link style="text-decoration: none;" :to="{ name: 'Passions' }">Passions</router-link> |
-    <router-link style="text-decoration: none;" :to="{ name: 'Clubs' }">Clubs</router-link>
+    <router-link style="text-decoration: none;" :to="{ name: 'Clubs' }">Clubs</router-link> |
+    <router-link style="text-decoration: none;" :to="{ name: 'Work' }">Work</router-link>
   </div>
   <vue-page-transition name="fade-in-right">
   <router-view/>
@@ -18,7 +19,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #8b9a71;
+  color: #b3b1b1;
 }
 body {
   background: #242424;

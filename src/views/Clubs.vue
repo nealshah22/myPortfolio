@@ -50,7 +50,7 @@
                     <ul>
                       <li>Increased number of members from previous year by 115%</li>
                       <li>Consistent 75% member attendance rate at monthly meetings</li>
-                      <li>As of Feb 2022, members have volunteered total of 280 hours</li>
+                      <li>As of Mar 2022, members have volunteered total of 716.5 hours</li>
                     </ul>
                   </p>
                 </div>
