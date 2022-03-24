@@ -17,8 +17,11 @@
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/G5KSPO5ThxE?autoplay=0&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="slide">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnsonstkd%2Fposts%2F4887328824633118&show_text=true&width=500" width="100%" height="590" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <!-- <iframe class="av_facebook_widget" src="//www.facebook.com/plugins/post.php?href='www.facebook.com%2Fjohnsonstkd%2Fposts%2F4887328824633118'&width&height='.$profiles.'&colorscheme=dark&show_faces='.$faces.'&header=false&stream=false&show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:'.$height.';" allowTransparency="true"></iframe> -->
+                <iframe class="myframe" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnsonstkd%2Fposts%2F4887328824633118&show_text=true&width=500" width="100%" height="590" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
+
+
               </agile>
               <div class="container">
                 <h5>After training for over 9 years I earned my 4th degree black belt in late October 2021.</h5>
@@ -184,7 +187,6 @@ ul {
   text-align: left;
 }
 
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
@@ -211,7 +213,9 @@ img {
   display: table;
   clear: both;
 }
-
+iframe.myframe {
+  background: #ffffff;
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
   .column {

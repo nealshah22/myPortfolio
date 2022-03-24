@@ -37,7 +37,7 @@
         <div class="card">
           <img src="https://i.postimg.cc/D04MSW71/Screenshot-2022-03-24-002841.png" alt="Neal Instructor" style="width:100%">
           <div class="container">
-            <h3>Part-time Paid Instructor</h3>
+            <h3>Part-time Paid Instructor | Johnson's Martial Arts</h3>
             <h5>
               Since November 2021:
             </h5>
