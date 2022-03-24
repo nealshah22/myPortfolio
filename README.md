@@ -1,5 +1,5 @@
 # Neal's College Application Updates
-Welcome to Neal Shah's Virtual Resume!
+Meet Neal, again!
 
 ## Access website
 
