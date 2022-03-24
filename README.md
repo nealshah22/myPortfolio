@@ -1,5 +1,5 @@
 # Neal's College Application Updates
-Meet Neal, again!
+Meet Neal, again! On this site I have provided updates on what I've been up to since October 2021.
 
 ## Access website
 
