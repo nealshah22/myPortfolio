@@ -67,7 +67,7 @@
           <h3>Honor Societies</h3>
           <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
             <div class="slide">
-                <img src="https://i.postimg.cc/FzRwv9WJ/oie-transparent-3.png" alt="NHS" style="width:100%; height:100%">
+                <img src="https://i.postimg.cc/SKTqBtVR/National-Honor-Society-logo-svg.png" alt="NHS" style="width:100%; height:100%">
             </div>
             <div class="slide">
               <img src="https://www.chatham.k12.nc.us/cms/lib/NC01911141/Centricity/Domain/2884/NTHS-logo_Vertical_RGB_transparent_300dpi-01.png" alt="NTHS" style="width:100%">
