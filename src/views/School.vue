@@ -41,9 +41,9 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <h3>Current Grades 2/15/22</h3>
+          <h3>Current Grades 3/25/22 (Quarter 3 Finalized)</h3>
             <div class="imgHover">
-          <img src="https://i.postimg.cc/bwJr5b9z/Neal-Shah-Feb-2022-Gradesasdf.png" alt="current grades" style="width:100%">
+          <img src="https://i.postimg.cc/gkxQfFqQ/Screenshot-2022-03-25-143526.png" alt="current grades" style="width:100%">
         </div>
           <div class="container">
             <p style="text-align:center;"><b>Hover to expand</b></p>
