@@ -17,7 +17,7 @@
           <h3>Shift Manager | Kung Fu Tea</h3>
           <img src="https://i.postimg.cc/j5sNFBD9/1200px-Kung-Fu-Tea-Official-Logo.png" alt="KFT" style="width:100%">
           <div class="container">
-            <h5>Shift manager *in training*</h5>
+            <h5>Shift manager</h5>
             <p>
               <ul>
                 <li>Supervise up to 5 employees including baristas and kitchen staff</li>
