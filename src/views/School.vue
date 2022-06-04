@@ -42,12 +42,7 @@
       <transition name="fade" appear>
         <div class="card">
           <h3>All A's Second Semester! [Finalized]</h3>
-            <div class="imgHover">
           <img src="https://i.postimg.cc/XqXkP5Qk/Finalized-Second-Semester-Grades.jpg" alt="current grades" style="width:100%">
-        </div>
-          <div class="container">
-            <p style="text-align:center;"><b>Hover to expand</b></p>
-          </div>
         </div>
       </transition>
     </div>
