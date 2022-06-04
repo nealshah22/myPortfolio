@@ -42,7 +42,7 @@
       <transition name="fade" appear>
         <div class="card">
           <h3>All A's Second Semester! [Finalized]</h3>
-          <img src="https://i.postimg.cc/XqXkP5Qk/Finalized-Second-Semester-Grades.jpg" alt="current grades" style="width:100%">
+          <img src="https://i.postimg.cc/63VQNb19/Finalized-Second-Semester-Grades.jpg" alt="current grades" style="width:100%">
         </div>
       </transition>
     </div>
