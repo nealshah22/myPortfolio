@@ -31,7 +31,7 @@
                   <ul>
                     <li>Donated over 300 clothing items to local community outreach agency in a school-wide collection drive</li>
                     <li>Hosted food drive (150 items donated)</li>
-                    <li>Collected 200+ hygine products for over 75 underprivelleged familes</li>
+                    <li>Collected 200+ hygine products for over 75 under privelleged familes</li>
                     <li>Coordinated and fulfilled 4-5 in-person volunteering events, monthly</li>
                   </ul>
                 </p>
