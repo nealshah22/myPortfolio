@@ -10,10 +10,9 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <h3>Shift Manager Promotion | Kung Fu Tea</h3>
+          <h3>Barista and Kitchen Staff | Kung Fu Tea</h3>
           <img src="https://i.postimg.cc/j5sNFBD9/1200px-Kung-Fu-Tea-Official-Logo.png" alt="KFT" style="width:100%">
           <div class="container">
-            <h5>Barista, Cashier, and Kitchen Staff</h5>
             <p>
               <ul>
                 <li>Master point-of-service (POS) computer system to maintain a smooth and pleasant customer interaction</li>
@@ -47,8 +46,43 @@
         </div>
       </transition>
     </div>
+    <!-- octo consulting card -->
+    <div class="column">
+      <transition name="fade" appear>
+        <div class="card"> 
+          <img src="https://i.postimg.cc/YS7H9Gg1/Octo-Consulting-Updated-Featured-Image.jpg" alt="Octo logo" style="width:100%">
+          <div class="container">
+            <h3>Marketing Intelligence Intern | Octo Consulting Group</h3>
+            <p>
+              <ul>
+                <li>Collaborate closely with account managers, capture managers, and business development to support a variety of research and data analysis projects</li>
+                <li>Aided in creation and delivery of a data analysis account planner on the Department of Transportation</li>
+                <li>Attend and support industry and networking events</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </transition>
+    </div>
+    <div class="column">
+      <transition name="fade" appear>
+        <div class="card">
+          <img src="https://i.postimg.cc/g0vmGyTy/sat-book.jpg" alt="sat book" style="width:100%">
+          <div class="container">
+            <h3>SAT Tutor</h3>
+            <p>
+              <ul>
+                <li>Offered an organized schedule with live score tracking of student progress (shared with parents)</li>
+                <li>Organized 23 official practice tests onto a calender schedule to ensure student success</li>
+                <li>Offered 1 hour in person tutoring sessions twice a week to review completed tests and homework assignments</li>
+                <li>Graded all tests and homework assignments within 24 hours of submission</li>
+              </ul>
+            </p>
+          </div>
 
-
+        </div>
+      </transition>
+    </div>
 
   </div>
 </template>
