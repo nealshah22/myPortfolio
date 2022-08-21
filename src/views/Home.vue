@@ -5,7 +5,7 @@
         <p style="font-size: 400%">Neal Shah</p>
       </transition>
       <transition name="bounce" appear>
-        <h1 style="font-size: 400%">College Updates</h1>
+        <h1 style="font-size: 400%">College Application Updates</h1>
       </transition>
 
       <transition name="bounce" appear>
@@ -15,7 +15,7 @@
     </div>
     <div class="column right">
       <transition name="bounce" appear>
-      <img src="https://i.postimg.cc/hGZ5rFPD/Photo-2022-02-10-010011.png" alt="This is me!" class="responsive">
+      <img src="https://i.postimg.cc/8kvxGMHz/1-A82-A1-E6-E46-F-4-B03-9196-0-AD9-BCEAC693-Original.jpg" alt="This is me!" class="responsive">
     </transition>
     </div>
   </div>
