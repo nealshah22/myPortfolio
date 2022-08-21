@@ -5,7 +5,7 @@
         <p style="font-size: 400%">Neal Shah</p>
       </transition>
       <transition name="bounce" appear>
-        <h1 style="font-size: 400%">College Application Updates</h1>
+        <h1 style="font-size: 400%">College Updates</h1>
       </transition>
 
       <transition name="bounce" appear>
