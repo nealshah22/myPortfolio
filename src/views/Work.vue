@@ -6,32 +6,27 @@
 </transition>
 
   <div class="row">
-    <div class="column">
-      <div class="cardb">
-
-      </div>
-    </div>
+    <!-- kft card -->
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
           <h3>Shift Manager Promotion | Kung Fu Tea</h3>
           <img src="https://i.postimg.cc/j5sNFBD9/1200px-Kung-Fu-Tea-Official-Logo.png" alt="KFT" style="width:100%">
           <div class="container">
-            <h5>Shift Manager</h5>
+            <h5>Barista, Cashier, and Kitchen Staff</h5>
             <p>
               <ul>
-                <li>Supervise up to 5 employees including baristas and kitchen staff</li>
-                <li>Conduct a final count of cash in register prior to closing</li>
-                <li>Spearhead training of new-hires</li>
-                <li>Communicate with customers to resolve any potential issues</li>
-                <li>Oversee business efficiency and operations for duration of shift</li>
-                <li>Direct employees through closing duties</li>
+                <li>Master point-of-service (POS) computer system to maintain a smooth and pleasant customer interaction</li>
+                <li>Memorized and perfected recipes for over 150 drinks</li>
+                <li>Responsible for brewing and cooking various ingredients crucial to drink creation (boba, four types tea, multiple jellies, pudding, and more)</li>
+                <li>Carefully planned kitchen tasks over the course of a shift to ensure store supplies were always in stock</li>
               </ul>
             </p>
           </div>
         </div>
       </transition>
     </div>
+    <!-- jma card -->
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
@@ -43,9 +38,9 @@
             </h5>
             <p>
               <ul>
-                <li>Grown my skill set to independetly teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree Black Belt)</li>
+                <li>Grown my skill set to independently teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree Black Belt)</li>
                 <li>Spent over 20 hours judging Taekwondo testings and tournaments at my studio</li>
-                <li>Began teaching private 1-on-1 lessons for students requiring further assitance outside of class</li>
+                <li>Began teaching private 1-on-1 lessons for students requiring further assistance outside of class</li>
               </ul>
             </p>
           </div>

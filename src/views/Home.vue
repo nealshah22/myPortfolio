@@ -2,10 +2,10 @@
   <div class="row">
     <div class="column left">
       <transition name="bounce" appear>
-        <p style="font-size: 400%">Neal Shah</p>
+        <p style="font-size: 350%">Hey,</p>
       </transition>
       <transition name="bounce" appear>
-        <h1 style="font-size: 400%">College Application Updates</h1>
+        <h1 style="font-size: 500%">I'm Neal!</h1>
       </transition>
 
       <transition name="bounce" appear>

@@ -31,7 +31,7 @@
                   <ul>
                     <li>Donated over 300 clothing items to local community outreach agency in a school-wide collection drive</li>
                     <li>Hosted food drive (150 items donated)</li>
-                    <li>Collected 200+ hygine products for over 75 under privelleged familes</li>
+                    <li>Collected 200+ hygiene products for over 75 under privileged families</li>
                     <li>Coordinated and fulfilled 4-5 in-person volunteering events, monthly</li>
                   </ul>
                 </p>
@@ -53,7 +53,7 @@
                     <ul>
                       <li>Increased number of members from previous year by 115%</li>
                       <li>Consistent 75% member attendance rate at monthly meetings</li>
-                      <li>As of Mar 2022, members have volunteered total of 716.5 hours</li>
+                      <li>As of June 2022, members have volunteered total of 716.5 hours</li>
                     </ul>
                   </p>
                 </div>
@@ -69,7 +69,7 @@
               </a> </p>
               <div class="container">
                 <h5>Reconstructed and renovated <a href="https://ghredcross.weebly.com" target="_blank">club website</a> to better suit club needs</h5>
-                <h5>My additions to the site from last year:</h5>
+                <h5>My additions to the site from the 2021 school year:</h5>
                 <p>
                   <ul>
                     <li>Constructed a digital form integrated in the website for members to suggest volunteering events</li>
@@ -95,12 +95,12 @@
             <h3>Inter-school Speech Competition</h3>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MIOpVO8uxg?autoplay=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picsture" allowfullscreen></iframe>
             <div class="container">
-              <h5>Designed, edited, and published a video marketing the TED-Ed club to students (featured on school wesbite). This increased enrollment in the club by over 60%.</h5>
+              <h5>Designed, edited, and published a video marketing the TED-Ed club to students (featured on school website). This increased enrollment in the club by over 60%.</h5>
               <h5>Individually providing assistance & resources in developing students' public speaking skills in preparation for competition</h5>
               <h5>Coordinating an end of year, "TED-Talk" style speech competition with 2 other schools.</h5>
               <p>
                 <ul>
-                  <li>Collaborated with school administrators to reserve an auditorium, stage, & necessary equipment for a succesful showcase</li>
+                  <li>Collaborated with school administrators to reserve an auditorium, stage, & necessary equipment for a successful showcase</li>
                   <li>Expecting 30 competitors with an estimated audience of roughly 100 students, parents, and faculty members</li>
                 </ul>
               </p>

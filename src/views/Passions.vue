@@ -83,7 +83,8 @@
                 <p>
                   <ul>
                     <li>Built using vueJS, a framework that utilized HTML, JavaScript, & CSS - all languages I now understand well!</li>
-                    <li>Hosted on my own domain - www.nealshah.info. I learned to use Netlify's Build service to deploy my website to the world!</li>
+                    <!-- <li>Hosted on my own domain - www.nealshah.info</li> -->
+                    <li>Learned to use Git to manage multiple branches, track changes, and ultimately push to production on my own domain - www.nealshah.info</li>
                   </ul>
                 </p>
                 <p style="margin:1%;text-align: center">
@@ -103,9 +104,9 @@
                 <h5>The program:</h5>
                 <p>
                   <ul>
-                    <li>Detects typos/spelling errors and, using intelligence programmed by me, informs the user of such occurences with useful statistics.</li>
-                    <li>Uses openpyxl (used to read&write to Excel files via Python), a Python library I learned how to use specificaly for this project!</li>
-                    <li>Is built for long term usage.</li>
+                    <li>Detects typos/spelling errors and, using intelligence I designed, informs the user of such occurrences with statistics necessary to correctly adjust data.</li>
+                    <li>Uses Openpyxl (which enables read and write functionality for Excel files via Python), a library I learned how to use specifically for this project.</li>
+                    <li>Can sustainably be used on a long term basis.</li>
                   </ul>
                 </p>
                 <p style="margin:1%;text-align: center">
