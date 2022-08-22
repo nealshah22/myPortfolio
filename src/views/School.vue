@@ -60,7 +60,7 @@
       <transition name="fade" appear>
         <div class="card">
           <h3>Honor Societies</h3>
-          <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="4500" :pauseOnHover="true">
+          <agile :dots="true" :infinite="true" :autoplay="true" :autoplaySpeed="2000" :pauseOnHover="true">
             <div class="slide">
                 <img src="https://i.postimg.cc/SKTqBtVR/National-Honor-Society-logo-svg.png" alt="NHS" style="width:100%; height:100%">
             </div>

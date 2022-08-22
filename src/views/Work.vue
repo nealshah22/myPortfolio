@@ -10,9 +10,13 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <h3>Barista and Kitchen Staff | Kung Fu Tea</h3>
-          <img src="https://i.postimg.cc/j5sNFBD9/1200px-Kung-Fu-Tea-Official-Logo.png" alt="KFT" style="width:100%">
+          <h3>Barista and Kitchen Staff</h3>
+          <h4 style="font-style:italic">Kung Fu Tea | Cary, NC</h4>
+          <img src="https://i.postimg.cc/tCddXv6g/kft-logo.png" alt="KFT" style="width:100%">
           <div class="container">
+            <p style="text-align:center; font-style: italic; font-size: 90%;">
+              June 2021 - August 2022
+            </p>
             <p>
               <ul>
                 <li>Master point-of-service (POS) computer system to maintain a smooth and pleasant customer interaction</li>
@@ -29,12 +33,13 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <img src="https://i.postimg.cc/D04MSW71/Screenshot-2022-03-24-002841.png" alt="Neal Instructor" style="width:100%">
+          <h3>Part-time Paid Instructor</h3>
+          <h4 style="font-style:italic; font-size:124%">Johnson's Martial Arts | Cary, NC</h4>
+          <img src="https://i.postimg.cc/D04MSW71/Screenshot-2022-03-24-002841.png" alt="Neal Instructor" style="width:100%; padding-top:3%">
           <div class="container">
-            <h3>Part-time Paid Instructor | Johnson's Martial Arts</h3>
-            <h5>
-              Since November 2021:
-            </h5>
+            <p style="text-align:center; font-style: italic; font-size: 90%;">
+              October 2019 - July 2022
+            </p>
             <p>
               <ul>
                 <li>Grown my skill set to independently teach classes of highly ranked black belt students (15-20 students ranked higher than 2nd Degree Black Belt)</li>
@@ -50,9 +55,13 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card"> 
-          <img src="https://i.postimg.cc/YS7H9Gg1/Octo-Consulting-Updated-Featured-Image.jpg" alt="Octo logo" style="width:100%">
+         <h3>Marketing Intelligence Intern</h3>
+         <h4 style="font-style:italic; font-size:110%">Octo Consulting Group | Reston, VA</h4>
+         <img src="https://i.postimg.cc/YS7H9Gg1/Octo-Consulting-Updated-Featured-Image.jpg" alt="Octo logo" style="width:100%; padding-top:3%">
           <div class="container">
-            <h3>Marketing Intelligence Intern | Octo Consulting Group</h3>
+            <p style="text-align:center; font-style: italic; font-size: 90%;">
+              June 2021 - August 2021
+            </p>
             <p>
               <ul>
                 <li>Collaborate closely with account managers, capture managers, and business development to support a variety of research and data analysis projects</li>
@@ -67,9 +76,14 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <img src="https://i.postimg.cc/g0vmGyTy/sat-book.jpg" alt="sat book" style="width:100%">
+          <h3>SAT Tutor</h3>
+          <h4 style="font-style:italic; font-size:110%">Self Employed | Cary, NC</h4>
+          <h4></h4>
+          <img src="https://i.postimg.cc/g0vmGyTy/sat-book.jpg" alt="sat book" style="width:100%; padding-top:3%">
           <div class="container">
-            <h3>SAT Tutor</h3>
+            <p style="text-align:center; font-style: italic; font-size: 90%;">
+              June 2022 - August 2022
+            </p>
             <p>
               <ul>
                 <li>Offered an organized schedule with live score tracking of student progress (shared with parents)</li>
@@ -120,10 +134,11 @@ h1{
   color: #8b9a71;
 }
 h5 {
-  text-align: left;
+  font-style: normal;
+  text-align: center;
   margin: 0 auto;
   padding: 1.5%;
-  font-size: 110%;
+  font-size: 100%;
   color: #d9d9d9;
 
 }
@@ -136,12 +151,19 @@ p {
   color: #d9d9d9;
 
 }
+ul {
+  padding-top: 2%
+}
 h3 {
   margin: 0 auto;
   padding: 1.5%;
   font-size: 200%;
   /* text-decoration: underline; */
   color: #d9d9d9;
+}
+h4 {
+  margin: 0 auto;
+  font-size:150%
 }
 ul {
   margin:   0 auto;
