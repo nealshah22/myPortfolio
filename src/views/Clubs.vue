@@ -192,7 +192,7 @@ ul {
   border-radius: 5px; /* 5px rounded corners */
 }
 img {
-  border-radius: 5px 5px 5px 5px;
+  border-radius:10%
 }
 
 .column {

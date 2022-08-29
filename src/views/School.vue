@@ -9,11 +9,11 @@
     <div class="column">
       <transition name="fade" appear>
       <div class="card" style="margin-bottom:5%">
-        <h3>Classes</h3>
+        <h3>AP Classes</h3>
         <img src="https://highlandrambler.org/wp-content/uploads/2019/11/AP-College-Board.jpg" alt="AP Classes" style="width:100%">
         <div class="container">
           <h5>
-            Out of 32 classes taken by June 2022, 11 were AP & 19 were honors.
+            Out of 32 high school classes, 11 were AP & 19 were honors.
           </h5>
           <p>
             <ul>
@@ -41,8 +41,8 @@
     <div class="column">
       <transition name="fade" appear>
         <div class="card">
-          <h3>All A's Second Semester! [Finalized]</h3>
-          <img src="https://i.postimg.cc/63VQNb19/Finalized-Second-Semester-Grades.jpg" alt="current grades" style="width:100%">
+          <h3>Final GPA </h3>
+          <img src="https://i.postimg.cc/BQYTNYy4/Untitled-1.jpg" alt="gpa" style="width:100%">
         </div>
       </transition>
     </div>
@@ -180,7 +180,7 @@ ul {
   border-radius: 5px; /* 5px rounded corners */
 }
 img {
-  border-radius: 5px 5px 5px 5px;
+  border-radius:10%
 }
 
 .imgHover{
