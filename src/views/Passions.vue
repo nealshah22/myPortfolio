@@ -82,9 +82,10 @@
                 </h5>
                 <p>
                   <ul>
-                    <li>Built using vueJS, a framework that utilized HTML, JavaScript, & CSS - all languages I now understand well!</li>
-                    <!-- <li>Hosted on my own domain - www.nealshah.info</li> -->
-                    <li>Learned to use Git to manage multiple branches, track changes, and ultimately push to production on my own domain - www.nealshah.info</li>
+                    <li>Used the VueJS framework (HTML, JavaScript, CSS)  to develop a full-stack multi-page website featuring high school accomplishments</li>
+                    <li>Wrote 400+ lines of HTML and 200+ lines of CSS to build an intuitive and functional front end</li>
+                    <li>Used Git command lines to manage multiple branches, track changes, create and complete pull requests, and push code to a repository</li>
+                    <li>Released GitHub repository to production using Netlify, a web service that deploys code from the main branch to a public domain</li>
                   </ul>
                 </p>
                 <p style="margin:1%;text-align: center">
