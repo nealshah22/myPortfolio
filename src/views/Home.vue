@@ -48,7 +48,7 @@ color: #8b9a71;
 
 h1 {
   font-family: Helvetica;
-  color: #ff00dd;
+  color: #8b9a71;
 
 }
 h3 {
