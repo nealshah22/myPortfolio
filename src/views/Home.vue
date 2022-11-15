@@ -8,9 +8,15 @@
         <h1 style="font-size: 500%">I'm Neal!</h1>
       </transition>
 
+      
       <transition name="bounce" appear>
         <h3>I programmed this website from scratch. Every component, every animation, every page you see here, I coded myself!</h3>
       </transition>
+
+      <transition name="bounce" appear>
+        <h3>I created this website to showcase my high school achievements!</h3>
+      </transition>
+
 
     </div>
     <div class="column right">
