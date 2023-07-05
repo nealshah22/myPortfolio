@@ -1,5 +1,5 @@
 # Neal's Portfolio
-Meet Neal! I've used this site to showcase my passions and recent accomplishments
+Hey there! I've used this site to showcase my passions and recent accomplishments
 ## Access website
 
 www.nealshah.info
